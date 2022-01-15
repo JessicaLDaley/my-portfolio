@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jessicaldaley.github.io/my-react-portfolio/",
-  "name": "my-react-portfolio",
+  "homepage": "https://jessicaldaley.github.io/my-portfolio/",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
