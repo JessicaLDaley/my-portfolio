@@ -1,0 +1,94 @@
+.footer {
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    color:rgb(207, 220, 233) !important;
+}
+
+.contactLink {
+    color: rgb(109, 107, 107) !important;
+}
+
+.nav {
+    padding: 1%;
+    font-size: 1.25em;
+}
+.floatright{
+    float:right;
+}
+.headerText {
+    display: inline-block;
+    width: 85%;
+    padding-left:2%;
+    font-size: 1.5em;
+    margin-top:2%;
+}
+
+.moreLeft {
+    padding-left:2%;
+   
+}
+
+.hello{
+    padding-top:4%;
+    font-size: 1.8em;
+}
+
+.profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    border: thin solid gray;
+    margin-top: 2%;
+}
+
+.hero {
+    width: 100%;
+    height: 3%;
+}
+
+.Wrapper {
+    margin:2.5%;
+    padding: 1%;
+    width:15%;
+    float:left;
+    border: thin solid gray;
+
+  
+    
+}
+
+
+  .btn {
+      margin: 1%;
+  }
+
+  .bold {
+      font-weight: 600;
+  }
+
+  .contactImg {
+      width:5%;
+      margin: 1%;
+      
+  }
+  @media screen and (min-width : 300px) and (max-width : 480px) {
+    .work {
+        width: 100%;
+        
+        
+    }
+  }
+
+     
+    
+   
+
+
+
+
+
+
+
