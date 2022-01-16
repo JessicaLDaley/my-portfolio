@@ -21,7 +21,7 @@ import {
 export default function blogPostWithImage() {
   return (
 
-    <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(3, 1fr)' >
+    <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(2, 1fr)' >
       <Stack>
         <GridItem>
           <Center justify={["center", "space-between", "flex-end", "flex-end"]}py={6}>
@@ -37,7 +37,7 @@ export default function blogPostWithImage() {
                 boxShadow="dark-lg"
                 rounded={'md'}
                 mt="1"
-                p={3}
+                p={5}
                 overflow={'hidden'}>
                 <Box
                   maxH={'300px'}
@@ -94,7 +94,7 @@ export default function blogPostWithImage() {
                 bg='white, primary.200'
                 boxShadow="dark-lg"
                 rounded={'md'}
-                p={4}
+                p={5}
                 ml={"1"}
                 mr={'1'}
                 mt="7"
@@ -144,7 +144,7 @@ export default function blogPostWithImage() {
           </Center>
         </GridItem>
       </Stack>
-
+     
       {/* work #3 */}
      
       <Stack className="responsive">
@@ -158,10 +158,10 @@ export default function blogPostWithImage() {
                 bg='white, primary.200'
                 boxShadow="dark-lg"
                 rounded={'md'}
-                p={3}
+                p={6}
                 ml={1}
                 mr={1}
-                mt="1"
+                mt="-8"
 
                 overflow={'hidden'}>
                 <Box
@@ -169,7 +169,7 @@ export default function blogPostWithImage() {
                   bg={'primary.200'}
                   mt={-6}
                   mx={-6}
-                  mb={2}
+                  mb={5}
                   pos={'relative'}>
                   <a href="https://michellewehr.github.io/MovieFoodie/">
                     <Image
@@ -208,6 +208,69 @@ export default function blogPostWithImage() {
           </Center>
         </GridItem>
       </Stack>
+{/* work #4 */}
+      <Stack className="responsive">
+        <GridItem>
+          <Center>
+            <Flex className="work">
+              <Box
+                maxW={'350px'}
+                maxH={'800px'}
+                w={'full'}
+                bg='white, primary.200'
+                boxShadow="dark-lg"
+                rounded={'md'}
+                p={4}
+                ml={"1"}
+                mr={'1'}
+                mt="1"
+                overflow={'hidden'}>
+                <Box
+                  className='margin'
+                  maxH={'300px'}
+                  bg={'primary.200'}
+                  mr={'1rem'}
+                  mt={-12}
+                  mx={-5}
+                  mb={10}
+                  pos={'relative'}>
+                  <a href={"https://github.com/JessicaLDaley/SQL-Employee-Tracker"}>
+                    <Image
+                      src={
+                        'https://jessicaldaley.github.io/my-work/assets/images/tracker.png'
+                      }
+                      layout={'fill'}
+                    /></a>
+                </Box>
+                <Stack>
+                  <Heading
+                    color='primary.100, white'
+                    fontSize={'2xl'}
+                    fontFamily={'body'}
+                    mt='1'>
+                    Employee Tracker 
+                  </Heading>
+                  <Text color={'primary.200'}>
+                    MySQL, Express, Node.JS
+                  </Text>
+                </Stack>
+                <Stack mt={1} direction={'row'} spacing={4} align={'center'}>
+                  <Avatar
+                    src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
+                    alt={'Author'}
+                  />
+                  <Stack direction={'column'} spacing={0} fontSize={'sm'}>
+                    <Text fontWeight={600}>Jessica Daley</Text>
+                    <Link color="primary.400" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.400">View on GitHub</Text>
+                      <ExternalLinkIcon mx='2px' color="primary.400" /></Link>
+                  </Stack>
+                </Stack>
+              </Box>
+            </Flex>
+          </Center>
+        </GridItem>
+      </Stack>
+
     </Grid>
    
 
