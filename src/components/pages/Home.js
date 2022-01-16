@@ -12,11 +12,13 @@ function Home() {
             <p>
 					My name is Jessica Daley. 
                     <br/>
-                    I'm a visual artist with experience in a wide range of mediums, including drawing, oil painting,
-					sculpture, photography and most recently, web development.
-					
-                    I graduated from Uconn's School of Engineering Coding Bootcamp and I'm excited to build my
-					career as a developer.
+                    I'm a full-stack bootcamp grad from Uconn's School of Engineering, as well as 
+                    a visual artist with experience in a wide range of mediums. 
+					My artistic background brings an insightful eye to the visual and physical flow of front-end applications. 
+                    I'm a dedicated problem solver with a love for learning and
+                    a passion for creating efficient, intuitive and beautiful user interfaces. 
+                    
+                   
 				</p>
         </div>
         </div>

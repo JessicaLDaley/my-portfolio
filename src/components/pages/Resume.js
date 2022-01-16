@@ -1,14 +1,18 @@
 import React from 'react';
 import github_icon from "../images/github_icon.svg";
+import downloadResume from "../images/downloadResume.svg";
 import { Heading, Text } from '@chakra-ui/react';
 import "../styles.css";
+import resumeDoc from "../images/Resume Jessica Daley.docx";
 
 function Resume() {
     return (
         <div className="moreLeft row">
-
+ <a className="resumeLink" href={resumeDoc} target="_blank"  rel="noreferrer"><p>Download My Resume</p><img width="20rem" className="downloadResume" src={ downloadResume } alt="download icon"/> 
+            </a>
+            <hr/>
             <div className="col-md">
-                <Heading>
+                <Heading className="pt">
                     <h3 fontSize={"2xl"}>Front-End Skills and Technologies</h3>
                 </Heading>
                 <Text className="languages">
@@ -25,14 +29,12 @@ function Resume() {
                         <li>Chakra UI</li>
                         <li>Adobe Photoshop</li>
                         <li>GIMP</li>
-                        <div>
-            <a href="https://github.com/JessicaLDaley" target="_blank" rel="noreferrer"><img className="contactImg" src={ github_icon } alt="github icon" /></a>
-            </div>
+         
                     </ul>
                 </Text>
             </div>
             <div className="col-md">
-                <Heading>
+                <Heading className="pt">
                     <h3 fontSize={"2xl"}>Back-End Skills and Technologies</h3>
                 </Heading>
                 <Text>

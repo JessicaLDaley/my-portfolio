@@ -59,7 +59,19 @@ a {
   
     
 }
+.downloadResume{
+ padding-bottom:15px;
+ 
 
+}
+.resumeLink p{
+    color: purple; 
+   
+    
+}
+.pt{
+    margin-top:30px;
+}
 
   .btn {
       margin: 1%;
