@@ -9,7 +9,7 @@ function Home() {
         <div className="moreLeft"><img className="profile" src={profile_pic} alt="profile" />
         <div className="headerText">
         <h1 className='hello'>Hello</h1>
-            <p>
+            <p className="bio">
 					My name is Jessica Daley. 
                     <br/>
                     I'm a full-stack bootcamp grad from Uconn's School of Engineering, as well as 

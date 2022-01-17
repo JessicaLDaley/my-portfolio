@@ -57,6 +57,7 @@ a {
     width: 10%;
     border: thin solid gray;
     margin-top: 2%;
+    border-style:inset;
 }
 
 .hero {
@@ -142,6 +143,67 @@ margin:3px;
     }
   } 
 
+ 
+  @media screen and (min-width : 200px) and (max-width : 500px) {
+    .profile {
+       
+       width:50%;
+       margin-left:25%;
+       margin-bottom:20px;
+       border-radius: 0px 0px 0px 100px;
+       border-style:inset;
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 200px) and (max-width : 500px) {
+    .bio {
+       
+       width:100%;
+       text-align: left;
+       margin-left:20px;
+       margin-right:15px;
+      
+   
+        
+        
+    }
+  }
 
+  @media only screen and (max-width: 500px)  {
+    .hello {
+       
+       width:100%;
+       text-align: left;
+       margin-left:20px;
+       
+      
+   
+        
+        
+    }
+  }
 
-
+  @media only screen and (max-width: 500px) {
+    .bio {
+       
+     font-size: 20px;
+     
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 500px) and (max-width : 1500px)   {
+    .hello {
+       padding-top:2px;
+       
+      
+   
+        
+        
+    }
+  }
