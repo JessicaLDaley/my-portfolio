@@ -91,19 +91,14 @@ margin:3px;
   }
   .contactImg2 {
     width:10%;
-    margin-bottom: ;
+  
     
 }
 
-  @media screen and (min-width : 300px) and (max-width : 480px) {
-    .work {
-        width: 100%;
-        
-        
-    }
-  }
 
-  @media screen and (min-width : 300px) and (max-width : 480px) {
+  
+
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
     .row1 {
         float:left;
       margin-right:30rem;
@@ -113,11 +108,9 @@ margin:3px;
     }
   }  
  
-    
-   
 
-
-
+  
+  
 
 
 
