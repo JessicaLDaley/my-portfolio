@@ -23,7 +23,8 @@ import {
 
 export default function blogPostWithImage() {
   return (
-    <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(2, 1fr)' >
+    
+    <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(1, 1fr)' >
     <Stack>
       <GridItem>
         <Center justify={["left",  "flex-end", "flex-end"]}py={1}>
@@ -86,13 +87,13 @@ export default function blogPostWithImage() {
       </GridItem>
     </Stack>
  
-    
+    <div class = "vertical"></div>
     {/* work #2 */}
    
    
 <Stack className="responsive">
       <GridItem className="marg-top">
-        <Center justify={["center", "flex-end", "flex-end"]}py={10}>
+        <Center justify={["center", "flex-end", "flex-end"]}py={9}>
           <Flex className="work" >
             <Box
               maxW={'350px'}
@@ -151,11 +152,11 @@ export default function blogPostWithImage() {
         </Center>
       </GridItem>
     </Stack>
-    
+    <div class = "vertical2"></div>
     {/* work #3 */}
     <Stack className="responsive">
       <GridItem>
-        <Center justify={["right",  "flex-end", "flex-end"]}py={-3}>
+        <Center justify={["right",  "flex-end", "flex-end"]}py={-9}>
           <Flex className="work">
             <Box
               maxW={'350px'}
@@ -167,7 +168,7 @@ export default function blogPostWithImage() {
               p={5}
               ml={"1"}
               mr={'1'}
-              mt="7"
+              mt="-6"
               mb="1"
               overflow={'hidden'}>
               <Box
@@ -219,7 +220,7 @@ export default function blogPostWithImage() {
 {/* work #4 */}
     <Stack className="responsive">
       <GridItem className="marg-top">
-        <Center justify={["center",  "flex-end", "flex-end"]}py={14}>
+        <Center justify={["center",  "flex-end", "flex-end"]}py={10}>
           <Flex className="work">
             <Box
               maxW={'350px'}
@@ -232,7 +233,7 @@ export default function blogPostWithImage() {
               ml={"1"}
               mr={'1'}
               mt="-8"
-              overflow={'hidden'}>
+             overflow={'hidden'}>
               <Box
                 className='margin'
                 maxH={'300px'}

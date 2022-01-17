@@ -10,7 +10,22 @@ a {
 .contactLink {
     color: rgb(109, 107, 107) !important;
 }
-
+.vertical {
+    border-left: 6px dotted gray;
+    height: 2000px;
+    position:absolute;
+    left: 30%;
+    
+}
+.vertical2 {
+    border-left: 6px dotted gray;
+   
+  
+    height: 2000px;
+    position:absolute;
+    right: 30%;
+    
+}
 .nav {
     padding: 1%;
     font-size: 1.25em;
@@ -33,7 +48,7 @@ a {
 
 .hello{
     padding-top:4%;
-    font-size: 1.8em;
+    font-size: 1.8em; left: 20%;
 }
 
 .profile {
@@ -50,7 +65,7 @@ a {
 }
 
 .Wrapper {
-    margin:2.5%;
+    margin:2.5%; left: 20%;
     padding: 1%;
     width:15%;
     float:left;
@@ -109,8 +124,23 @@ margin:3px;
   }  
  
 
-  
-  
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .vertical {
+        left: -4%;
+   
+        
+        
+    }
+  }  
+ 
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .vertical2 {
+        right: -4%;
+   
+        
+        
+    }
+  } 
 
 
 
