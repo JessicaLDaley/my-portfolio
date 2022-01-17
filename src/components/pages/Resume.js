@@ -165,15 +165,13 @@ export default function Resume() {
                             Jest
                         </ListItem>
                         </List>
-                    <Link>
-                        <a href="https://github.com/JessicaLDaley"><img  className="contactImg2" src={github_icon} alt="github icon" /></a>
-                    </Link>
+                 
                     <Button   
          
-        ml="33rem"
+        ml="17rem"
          
-         mt="3"
-         
+         mt="5"
+         className="resumebtn"
           bg={'green.400'}
           color={'white'}
           rounded={'xl'}
@@ -185,6 +183,9 @@ export default function Resume() {
             bg: 'green.500',
           }}><Text mr="1">Download My Resume</Text> <a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><img width="17rem"  className="downloadResume" src={downloadResume} alt="download icon" />
           </a></Button>
+          <Link>
+<a href="https://github.com/JessicaLDaley"><img  className="contactImg2" src={github_icon} alt="github icon" /></a>
+</Link>
              
                 </Box>
             </Box>

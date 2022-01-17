@@ -90,8 +90,8 @@ margin:3px;
       
   }
   .contactImg2 {
-    width:15%;
-    margin-bottom: -60px;
+    width:10%;
+    margin-bottom: ;
     
 }
 
@@ -103,7 +103,16 @@ margin:3px;
     }
   }
 
-     
+  @media screen and (min-width : 300px) and (max-width : 480px) {
+    .row1 {
+        float:left;
+      margin-right:30rem;
+   
+        
+        
+    }
+  }  
+ 
     
    
 
