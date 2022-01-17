@@ -61,13 +61,17 @@ a {
 }
 .downloadResume{
  padding-bottom:15px;
+ margin-left:2px;
  
 
 }
-.resumeLink p{
-    color: purple; 
+.resumeLink a{
+ float:left;
+    justify:center;
 }
    
+
+
 
 .pt{
     margin-top:30px;
@@ -87,6 +91,12 @@ a {
       margin: 1%;
       
   }
+  .contactImg2 {
+    width:20%;
+    margin: 5%;
+    
+}
+
   @media screen and (min-width : 300px) and (max-width : 480px) {
     .work {
         width: 100%;
