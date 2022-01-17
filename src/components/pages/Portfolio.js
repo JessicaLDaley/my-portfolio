@@ -81,6 +81,7 @@ export default function blogPostWithImage() {
           </Center>
         </GridItem>
       </Stack>
+   
       
       {/* work #2 */}
       <Stack className="responsive">

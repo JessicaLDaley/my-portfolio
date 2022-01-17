@@ -14,6 +14,8 @@ import {
     ListIcon,
     Button,
     useColorModeValue,
+    GridItem,
+    Grid
 } from '@chakra-ui/react';
 import { CheckIcon } from '@chakra-ui/icons';
 
@@ -21,14 +23,15 @@ import { CheckIcon } from '@chakra-ui/icons';
 export default function Resume() {
     return (
 
-
-        <Center py={2}>
-        
-            <Box
+<Center>
+        <Grid className="row1" templateColumns='repeat(2, 1fr)' >
+        <Stack>
+          <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={2}>
+    <Box
               
-                maxW={'330px'}
+                maxW={'full'}
                 w={'50rem'}
-                mr="10px"
+               ml="30rem"
                 bg={useColorModeValue('primary.100', 'primary.100')}
                 boxShadow="dark-lg"
                 rounded={'md'}
@@ -39,23 +42,24 @@ export default function Resume() {
                     color={useColorModeValue('primary.100', 'primary.100')}
                     align={'center'}>
                     <Text
-                        fontSize={'md'}
+                    textAlign="center"
+                        fontSize={'xl'}
                         fontWeight={500}
                         className="gradient"
-                        p={2}
-                        px={5}
+                        p={1}
+                        px={10}
                         color={'white'}
                         rounded={'full'}>
                         Front-End Skills and Technologies
                     </Text>
                 </Stack>
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List spacing={3}>
+                    <List fontSize="lg" textAlign={'left'} ml="20rem"spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             JavaScript
                         </ListItem>
-                        <ListItem>
+                        <ListItem>     
                             <ListIcon as={CheckIcon} color="primary.400" />
                             HTML
                         </ListItem>
@@ -100,28 +104,15 @@ export default function Resume() {
                             GIMP
                         </ListItem>
                     </List>
-                    <Link>
-                        <a href="https://github.com/JessicaLDaley"><img className="contactImg2" src={github_icon} alt="github icon" /></a>
-                    </Link>
-                </Box>
-            </Box>
-          
-            <Box
-            mt="5px"
-                maxW={'330px'}
-                w='50rem'
-                ml="20rem"
-                bg={useColorModeValue('primary.100', 'primary.100')}
-                boxShadow="dark-lg"
-                rounded={'md'}
-                overflow={'hidden'}>
-                <Stack
-                    textAlign={'center'}
+                    </Box>
+                    <Stack
+                   
                     p={6}
                     color={useColorModeValue('primary.100', 'primary.100')}
-                    align={'center'}>
+                    align={'right'}>
                     <Text
-                        fontSize={'md'}
+                     textAlign={'center'}
+                        fontSize={'xl'}
                         fontWeight={500}
                         className="gradient"
                         p={2}
@@ -132,8 +123,8 @@ export default function Resume() {
                     </Text>
                 </Stack>
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List spacing={3}>
-                        <ListItem>
+                    <List  fontSize="lg"  textAlign={'left'} ml="20rem" spacing={3}>
+                    <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Node.js
                         </ListItem>
@@ -173,27 +164,46 @@ export default function Resume() {
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Jest
                         </ListItem>
-                    </List>
+                        </List>
+                    <Link>
+                        <a href="https://github.com/JessicaLDaley"><img  className="contactImg2" src={github_icon} alt="github icon" /></a>
+                    </Link>
                     <Button   
-          
-        
-            top= "0"
-            right= "0"
-            mt="10"
-            bg={'green.400'}
-            color={'white'}
-            rounded={'xl'}
-            boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
-            _hover={{
-              bg: 'green.500',
-            }}
-            _focus={{
-              bg: 'green.500',
-            }}>Download My Resume <a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><img width="15rem"  className="downloadResume" src={downloadResume} alt="download icon" />
-            </a></Button>
+         
+        ml="33rem"
+         
+         mt="3"
+         
+          bg={'green.400'}
+          color={'white'}
+          rounded={'xl'}
+          boxShadow="dark-lg"
+          _hover={{
+            bg: 'green.500',
+          }}
+          _focus={{
+            bg: 'green.500',
+          }}><Text mr="1">Download My Resume</Text> <a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><img width="17rem"  className="downloadResume" src={downloadResume} alt="download icon" />
+          </a></Button>
+             
                 </Box>
             </Box>
+
+          
+                   
+                   
+            
     
+          
+            </GridItem>
+            </Stack>
+
+     
+          
+          
+      
+       
+        </Grid>
         </Center>
     );
 }

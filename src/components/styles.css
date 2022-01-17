@@ -60,15 +60,13 @@ a {
     
 }
 .downloadResume{
- padding-bottom:15px;
- margin-left:2px;
+
+margin:3px;
+
  
 
 }
-.resumeLink a{
- float:left;
-    justify:center;
-}
+
    
 
 
@@ -92,8 +90,8 @@ a {
       
   }
   .contactImg2 {
-    width:20%;
-    margin: 5%;
+    width:15%;
+    margin-bottom: -60px;
     
 }
 
