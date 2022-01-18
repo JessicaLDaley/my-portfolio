@@ -9,7 +9,7 @@ import {
     Text,
     Stack,
     List,
-    Link,
+    IconButton,
     ListItem,
     ListIcon,
     Button,
@@ -18,7 +18,7 @@ import {
     Grid
 } from '@chakra-ui/react';
 import { CheckIcon } from '@chakra-ui/icons';
-
+import { BsGithub} from 'react-icons/bs';
 
 export default function Resume() {
     return (
@@ -173,9 +173,9 @@ export default function Resume() {
                  
                     <Button   
          
-        ml="6rem"
-         mb="-10"
-         mt="5"
+        ml="4rem"
+         mb="1"
+         mt="10"
          className="resumebtn"
           bg={'green.400'}
           color={'white'}
@@ -188,9 +188,19 @@ export default function Resume() {
             bg: 'green.500',
           }}><Text mr="1">Download My Resume</Text> <a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><img width="17rem"  className="downloadResume" src={downloadResume} alt="download icon" />
           </a></Button>
-          <Link>
-<a href="https://github.com/JessicaLDaley"><img  className="contactImg2" src={github_icon} alt="github icon" /></a>
-</Link>
+          <a href="https://github.com/JessicaLDaley">
+                    <IconButton
+                      aria-label="github"
+                      variant="ghost"
+                      size="lg"
+                      mb="3"
+                      mt="9"
+                      float="left"
+                      color="primary.100"
+                      isRound={true}
+                      _hover={{ bg: 'primary.400' }}
+                      icon={<BsGithub  size="43px"/> }
+                      /></a>
              
                 </Box>
             </Box>
