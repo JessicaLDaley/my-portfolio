@@ -70,80 +70,99 @@ function Contact(props) {
                         icon={<BsGithub size="43px" />}
                       /></a>
 
+                    <a href="https://www.linkedin.com/in/jessica-daley-full-stack-developer/">
+                      <IconButton
+                        aria-label="linkedin"
+                        variant="ghost"
+                        size="lg"
+                        color="white"
+                        isRound={false}
+                        _hover={{ bg: 'primary.400' }}
+                        icon={<BsLinkedin size="40px" />}
+                      /></a>
 
-                    <IconButton
-                      aria-label="linkedin"
-                      variant="ghost"
-                      size="lg"
-                      color="white"
-                      isRound={false}
-                      _hover={{ bg: 'primary.400' }}
-                      icon={<BsLinkedin size="40px" />}
-                    />
-                    <IconButton
-                      aria-label="email"
-                      variant="ghost"
-                      size="lg"
-                      color="white"
-                      isRound={false}
-                      _hover={{ bg: 'primary.400' }}
-                      icon={<MdEmail size="50px" />}
-                    />
+                    <a href="mailto:jessicadaley127@gmail.com">
+                      <IconButton
+                        aria-label="email"
+                        variant="ghost"
+                        size="lg"
+                        color="white"
+                        isRound={false}
+                        _hover={{ bg: 'primary.400' }}
+                        icon={<MdEmail size="50px" />}
+                      /></a>
+
                   </HStack>
                 </Box>
               </WrapItem>
               <WrapItem>
+
                 <Box boxShadow="dark-lg" bg="white" borderRadius="lg">
-                  <Box className="form" m={8} color="#0B0E3F">
-                    <VStack spacing={5}>
-                      <FormControl id="name">
-                        <FormLabel>Your Name</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<BsPerson color="gray.800" />}
+                  <Box className="form" height="50%" m={8} color="#0B0E3F">
+                    <VStack spacing={8}>
+                      <form action="https://formsubmit.co/jessicadaley127@gmail.com" method="POST">
+                        <FormControl id="name">
+
+                          <FormLabel>Your Name</FormLabel>
+                          <InputGroup borderColor="#E0E1E7">
+                            <InputLeftElement
+
+                              pointerEvents="none"
+                              children={<BsPerson color="gray.800" />}
+                            />
+                            <Input mb="1rem" type="text" name="name" size="md" required />
+                          </InputGroup>
+                        </FormControl>
+                        <FormControl id="name">
+                          <FormLabel>Email</FormLabel>
+                          <InputGroup borderColor="#E0E1E7">
+                            <InputLeftElement
+                              pointerEvents="none"
+                              children={<MdOutlineEmail color="gray.800" />}
+                            />
+                            <Input mb="1rem" type="email" name="email" size="md" required />
+                          </InputGroup>
+                        </FormControl>
+                        <FormControl id="name">
+                          <FormLabel>Message</FormLabel>
+                          <Textarea
+                            height="8rem"
+                            mb="3rem"
+                            name='message'
+                            borderColor="gray.300"
+                            _hover={{
+                              borderRadius: 'gray.300',
+                            }}
+                            placeholder="Message content"
                           />
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Mail</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<MdOutlineEmail color="gray.800" />}
-                          />
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Message</FormLabel>
-                        <Textarea
-                          borderColor="gray.300"
-                          _hover={{
-                            borderRadius: 'gray.300',
-                          }}
-                          placeholder="message"
-                        />
-                      </FormControl>
-                      <FormControl id="name" float="right">
-                        <Button
-                          variant="solid"
-                          bg="green.400"
-                          color="white"
-                          boxShadow="dark-lg"
-                          _hover={{
-                            bg: 'green.500',
-                          }}
-                          _focus={{
-                            bg: 'green.500',
-                          }}>
-                          Send Message
-                        </Button>
-                      </FormControl>
+                        </FormControl>
+
+                        <FormControl id="name" float="right">
+
+                          <Button
+                            mt="-8"
+                            type="submit"
+                            variant="solid"
+                            bg="green.400"
+                            color="white"
+                            pt="1"
+                            boxShadow="dark-lg"
+                            _hover={{
+                              bg: 'green.500',
+                            }}
+                            _focus={{
+                              bg: 'green.500',
+                            }}>
+                            Send Message
+                          </Button>
+
+
+                        </FormControl>
+                      </form>
                     </VStack>
                   </Box>
                 </Box>
+
               </WrapItem>
             </Wrap>
           </Box>
