@@ -173,9 +173,10 @@ export default function Resume() {
                  
                     <Button   
          
-        ml="4rem"
+        ml="7rem"
          mb="1"
          mt="10"
+         pt="1"
          className="resumebtn"
           bg={'green.400'}
           color={'white'}
@@ -186,21 +187,9 @@ export default function Resume() {
           }}
           _focus={{
             bg: 'green.500',
-          }}><Text mr="1">Download My Resume</Text> <a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><img width="17rem"  className="downloadResume" src={downloadResume} alt="download icon" />
+          }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><Text color="white">Download My Resume</Text> 
           </a></Button>
-          <a href="https://github.com/JessicaLDaley">
-                    <IconButton
-                      aria-label="github"
-                      variant="ghost"
-                      size="lg"
-                      mb="3"
-                      mt="9"
-                      float="left"
-                      color="primary.100"
-                      isRound={true}
-                      _hover={{ bg: 'primary.400' }}
-                      icon={<BsGithub  size="43px"/> }
-                      /></a>
+       
              
                 </Box>
             </Box>

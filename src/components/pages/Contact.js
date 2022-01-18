@@ -22,16 +22,16 @@ import {
 } from '@chakra-ui/react';
 import {
   MdEmail,
- 
+
   MdLinkedin,
   MdOutlineEmail,
 } from 'react-icons/md';
 import { BsGithub, BsLinkedin, BsPerson } from 'react-icons/bs';
-import profile_pic from "../images/Me.jpg" 
+import profile_pic from "../images/Me.jpg"
 
 function Contact(props) {
   return (
-<Container border-style="outset"  maxW="full" mt={0} centerContent overflow="hidden">
+    <Container border-style="outset" maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box
           bg=" background: rgb(9,9,9);
@@ -44,13 +44,13 @@ function Contact(props) {
           <Box p={4}>
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
-                <Box>
-                  <Heading font-family="sans-serif" ml="20px">Contact Me</Heading>
-                  
+                <Box className="contact-head">
+                  <Heading className="contact-me" font-family="sans-serif"> Contact Me</Heading>
+
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                    <VStack  pl={0} spacing={3} alignItems="flex-start">
-                    <Image mt="28px" ml="50px"width="8rem" className="profile" src={profile_pic} alt="profile"></Image>
-                      
+                    <VStack pl={0} spacing={3} alignItems="flex-start">
+                      <Image mt="28px" ml="50px" width="8rem" className="profile-contact" src={profile_pic} alt="profile"></Image>
+
                     </VStack>
                   </Box>
                   <HStack
@@ -58,19 +58,19 @@ function Contact(props) {
                     spacing={5}
                     px={5}
                     alignItems="flex-start">
-                    
+
                     <a href="https://github.com/JessicaLDaley">
-                    <IconButton
-                      aria-label="github"
-                      variant="ghost"
-                      size="lg"
-                      color="white"
-                      isRound={true}
-                      _hover={{ bg: 'primary.400' }}
-                      icon={<BsGithub  size="43px"/> }
+                      <IconButton
+                        aria-label="github"
+                        variant="ghost"
+                        size="lg"
+                        color="white"
+                        isRound={true}
+                        _hover={{ bg: 'primary.400' }}
+                        icon={<BsGithub size="43px" />}
                       /></a>
-                    
-                    
+
+
                     <IconButton
                       aria-label="linkedin"
                       variant="ghost"
@@ -80,7 +80,7 @@ function Contact(props) {
                       _hover={{ bg: 'primary.400' }}
                       icon={<BsLinkedin size="40px" />}
                     />
-                     <IconButton
+                    <IconButton
                       aria-label="email"
                       variant="ghost"
                       size="lg"
@@ -93,8 +93,8 @@ function Contact(props) {
                 </Box>
               </WrapItem>
               <WrapItem>
-                <Box  boxShadow="dark-lg" bg="white" borderRadius="lg">
-                  <Box m={8} color="#0B0E3F">
+                <Box boxShadow="dark-lg" bg="white" borderRadius="lg">
+                  <Box className="form" m={8} color="#0B0E3F">
                     <VStack spacing={5}>
                       <FormControl id="name">
                         <FormLabel>Your Name</FormLabel>
@@ -132,12 +132,12 @@ function Contact(props) {
                           bg="green.400"
                           color="white"
                           boxShadow="dark-lg"
-          _hover={{
-            bg: 'green.500',
-          }}
-          _focus={{
-            bg: 'green.500',
-          }}>
+                          _hover={{
+                            bg: 'green.500',
+                          }}
+                          _focus={{
+                            bg: 'green.500',
+                          }}>
                           Send Message
                         </Button>
                       </FormControl>
