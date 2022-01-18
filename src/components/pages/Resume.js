@@ -30,7 +30,7 @@ export default function Resume() {
  
         <Grid className="row1" templateColumns='repeat(2, 1fr)' >
         <Stack>
-          <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={2}>
+          <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={9}>
            <Box
               className="card-w"
                 maxW={'full'}
