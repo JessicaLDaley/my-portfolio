@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import customTheme from "./utils/theme";
 import { ChakraProvider } from '@chakra-ui/react'
 
+
+
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>

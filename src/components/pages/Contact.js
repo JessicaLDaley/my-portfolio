@@ -34,6 +34,7 @@ function Contact(props) {
     <Container border-style="outset" maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box
+          className="form-box"
           bg=" background: rgb(9,9,9);
           background: linear-gradient(135deg, rgba(9,9,9,1) 0%, rgba(41,39,39,1) 34%, rgba(213,212,212,1) 100%); "
           color="white"
@@ -45,7 +46,7 @@ function Contact(props) {
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box className="contact-head">
-                  <Heading className="contact-me" font-family="sans-serif"> Contact Me</Heading>
+                  <Heading className="contact-me" > Contact Me</Heading>
 
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                     <VStack pl={0} spacing={3} alignItems="flex-start">

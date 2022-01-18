@@ -10,9 +10,11 @@ const colors = {
     600: "#ffffff",
     700: "#eeeef2",
     800: "#6e7171"
+    
   }
 };
 
-const customTheme = extendTheme({ colors });
+
+const customTheme = extendTheme({ colors});
 
 export default customTheme;

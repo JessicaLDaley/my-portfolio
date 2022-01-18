@@ -71,8 +71,9 @@ const MenuLinks = ({ isOpen }) => {
       >
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/Portfolio">Portfolio</MenuItem>
-<MenuItem to="/Contact">Contact</MenuItem>
-        <MenuItem to="/Resume" isLast>Resume</MenuItem>
+        <MenuItem to="/Resume" >Resume</MenuItem>
+        <MenuItem to="/Contact" isLast>Contact</MenuItem>
+      
        
       </Stack>
     </Box>

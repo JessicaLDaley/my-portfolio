@@ -10,18 +10,7 @@ a {
 .contactLink {
     color: rgb(109, 107, 107) !important;
 }
-.github-btn{
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 50%;
-}
+
 .vertical {
     border-left: 6px dotted gray;
     height: 2000px;
@@ -74,6 +63,7 @@ a {
 .hello{
     padding-top:4%;
     font-size: 1.8em; left: 20%;
+     
 }
 
 .profile {
@@ -134,6 +124,7 @@ margin:3px;
 }
 .contact-me{
   margin-left:20px;
+
 }
 
 /* //////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////// */
@@ -211,7 +202,7 @@ margin:3px;
         
     }
   } 
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
+  @media screen and (min-width : 300px) and (max-width : 1500px) {
     .vertical4 {
         left: -4%;
    
@@ -220,7 +211,7 @@ margin:3px;
     }
   }  
  
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
+  @media screen and (min-width : 300px) and (max-width : 1500px) {
     .vertical3 {
         right: -4%;
    
@@ -265,7 +256,7 @@ margin:3px;
        width:100%;
        text-align: left;
        margin-left:20px;
-       
+      
       
    
         
@@ -295,10 +286,11 @@ margin:3px;
     }
   }
   /* end homepage */
-
+ 
+  /* contact start */
   @media screen and (min-width : 300px) and (max-width : 800px)   {
     .contact-head{
-       margin-left:3rem;
+       margin-left:2rem;
        
       
    
@@ -306,7 +298,7 @@ margin:3px;
         
     }
   }
-  @media screen and (min-width : 200px) and (max-width : 800px)   {
+  @media screen and (min-width : 200px) and (max-width : 900px)   {
     .contact-me{
        margin-left:2rem;
        
@@ -318,7 +310,17 @@ margin:3px;
   }
   @media screen and (min-width : 200px) and (max-width : 800px)   {
     .form{
-       margin-left:5rem;
+       margin-left:10rem;
+       
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 300px) and (max-width : 802px)   {
+    .form-box {
+      width:20rem;
        
       
    
