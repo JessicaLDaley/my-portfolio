@@ -19,11 +19,24 @@ a {
 }
 .vertical2 {
     border-left: 6px dotted gray;
-   
-  
     height: 2000px;
     position:absolute;
     right: 30%;
+    
+}
+.vertical3 {
+    border-left: 6px dotted gray;
+    height: 1500px;
+    position:absolute;
+    right: 25%;
+    
+}
+.vertical4 {
+    border-left: 6px dotted gray;
+    height: 1500px;
+    position:absolute;
+    left: 18%;
+    
     
 }
 .nav {
@@ -111,19 +124,54 @@ margin:3px;
     
 }
 
-
-  
+/* //////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////// */
+  /* resume */
 
   @media screen and (min-width : 300px) and (max-width : 1000px) {
     .row1 {
         float:left;
-      margin-right:30rem;
+      margin-right:40rem;
+      margin-left:2px;
+      
+      
    
         
         
     }
   }  
  
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .row1 img{
+    margin-left:35px;
+      
+   
+        
+        
+    }
+  }  
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .row1 Button{
+    margin-left:120px;
+      
+   
+        
+        
+    }
+  } 
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .list-padding {
+        margin-right:5px;
+     
+      
+   
+        
+        
+    }
+  }
+  
+ /* end resume */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ /* portfolio */
 
   @media screen and (min-width : 300px) and (max-width : 1000px) {
     .vertical {
@@ -142,8 +190,26 @@ margin:3px;
         
     }
   } 
-
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .vertical4 {
+        left: -4%;
+   
+        
+        
+    }
+  }  
  
+  @media screen and (min-width : 300px) and (max-width : 1000px) {
+    .vertical3 {
+        right: -4%;
+   
+        
+        
+    }
+  }
+/* end porfolio */
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* homepage */
   @media screen and (min-width : 200px) and (max-width : 500px) {
     .profile {
        
@@ -207,3 +273,4 @@ margin:3px;
         
     }
   }
+  /* end homepage */

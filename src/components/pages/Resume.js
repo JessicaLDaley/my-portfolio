@@ -22,16 +22,20 @@ import { CheckIcon } from '@chakra-ui/icons';
 
 export default function Resume() {
     return (
-
+        <Text>
+        <div class = "vertical4"></div>
+        <div class = "vertical3"></div>
+      
 <Center>
+ 
         <Grid className="row1" templateColumns='repeat(2, 1fr)' >
         <Stack>
           <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={2}>
-    <Box
-              
+           <Box
+              className="card-w"
                 maxW={'full'}
-                w={'50rem'}
-               ml="30rem"
+                w={'30rem'}
+               ml="40rem"
                 bg={useColorModeValue('primary.100', 'primary.100')}
                 boxShadow="dark-lg"
                 rounded={'md'}
@@ -52,9 +56,10 @@ export default function Resume() {
                         rounded={'full'}>
                         Front-End Skills and Technologies
                     </Text>
+                    
                 </Stack>
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List fontSize="lg" textAlign={'left'} ml="20rem"spacing={3}>
+                    <List fontSize="lg" textAlign={'left'} ml="10rem"spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             JavaScript
@@ -123,7 +128,7 @@ export default function Resume() {
                     </Text>
                 </Stack>
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List  fontSize="lg"  textAlign={'left'} ml="20rem" spacing={3}>
+                    <List  fontSize="lg"  textAlign={'left'} ml="10rem" spacing={3}>
                     <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Node.js
@@ -168,8 +173,8 @@ export default function Resume() {
                  
                     <Button   
          
-        ml="17rem"
-         
+        ml="6rem"
+         mb="-10"
          mt="5"
          className="resumebtn"
           bg={'green.400'}
@@ -205,6 +210,12 @@ export default function Resume() {
       
        
         </Grid>
+       
         </Center>
+        </Text>
+        
+    
+            
+           
     );
 }
