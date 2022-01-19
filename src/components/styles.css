@@ -161,9 +161,9 @@ margin:3px;
         
     }
   } 
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
+  @media screen and (min-width : 300px) and (max-width : 1550px) {
     .list-padding {
-        margin-right:5px;
+        margin-right:7px;
      
       
    
@@ -181,44 +181,51 @@ margin:3px;
         
     }
   }
- /* end resume */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
- /* portfolio */
-
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
-    .vertical {
+  @media screen and (min-width : 200px) and (max-width : 1650px) {
+    .vertical4 {
         left: -4%;
-   
+        height:1px;
+        color:white;
         
         
     }
   }  
  
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
-    .vertical2 {
+  @media screen and (min-width : 200px) and (max-width : 1650px) {
+    .vertical3 {
         right: -4%;
+        height:1px;
+        color:white;
+        
+        
+    }
+  }
+ /* end resume */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ /* portfolio */
+
+  @media screen and (min-width : 200px) and (max-width : 1200px) {
+    .vertical {
+        left: -4%;
+        height:1px;
+        height:1px;
+        color:white;
+        
+        
+    }
+  }  
+ 
+  @media screen and (min-width : 200px) and (max-width : 1200px) {
+    .vertical2 {
+        right: -8%;
+        height:1px;
+        color:white;
    
         
         
     }
   } 
-  @media screen and (min-width : 300px) and (max-width : 1500px) {
-    .vertical4 {
-        left: -4%;
-   
-        
-        
-    }
-  }  
  
-  @media screen and (min-width : 300px) and (max-width : 1500px) {
-    .vertical3 {
-        right: -4%;
-   
-        
-        
-    }
-  }
 /* end porfolio */
  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* homepage */
