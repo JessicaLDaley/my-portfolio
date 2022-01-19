@@ -3,7 +3,7 @@ import Hero from "./images/hero2.jpg"
 
 function HeroImage() {
     return (
-        <img className="hero" src={Hero} alt="Jessica Daley Full-Stack Developer" />
+        <img margin="0" padding="0" overflow-x="hidden" className="hero" src={Hero} alt="Jessica Daley Full-Stack Developer" />
 
     );
 }

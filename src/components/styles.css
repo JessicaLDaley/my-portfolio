@@ -73,9 +73,11 @@ a {
     border: thin solid gray;
     margin-top: 2%;
     border-style:inset;
+    box-shadow: 10px 10px 5px #ccc;
 }
 .profile-contact{
   border: thin solid gray;
+  box-shadow: 10px 10px 5px rgb(22, 22, 22);
 }
 
 .hero {
@@ -234,9 +236,11 @@ margin:3px;
        
        width:50%;
        margin-left:25%;
-       margin-bottom:20px;
+       margin-bottom:7px;
        border-radius: 0px 0px 0px 100px;
        border-style:inset;
+       box-shadow: 10px 10px 5px #ccc;
+      
       
    
         
