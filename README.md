@@ -1,9 +1,8 @@
-# My React Portfolio
+# My Portfolio
 
 
 
-![react-port](https://user-images.githubusercontent.com/79805880/145736112-57f62358-b0b1-4775-8a79-646eb115aa44.png)
-
+![portss](https://user-images.githubusercontent.com/79805880/150037586-8d221956-15a1-4571-b943-f688198e1d43.png)
 
 
 
@@ -14,11 +13,9 @@
 My professional portfolio built with React. 
 
 
+![portcardsss](https://user-images.githubusercontent.com/79805880/150037784-683a9ed1-3862-4aa8-a224-7067c99bbb04.png)
 
-
-  
-![react-work](https://user-images.githubusercontent.com/79805880/145736430-8ee301e7-ca7d-4c1b-91f9-970d14db42f7.png)
-
+![contactss](https://user-images.githubusercontent.com/79805880/150037798-d9f00525-11d9-4ba5-a0a4-ce90859072aa.png)
 
   
  
@@ -30,12 +27,14 @@ My professional portfolio built with React.
  
   
   ## Deployment
-My Portfolio <a href="https://jessicaldaley.github.io/my-react-portfolio/">Jessica-Daley.com</a>
+My Portfolio <a href="https://jessicaldaley.github.io/my-portfolio/">Jessica-Daley.com</a>
   
   ## Built With...
   * React
   * JavaScript
   * CSS
+  * HTML
+  * CHAKRA UI
   
 
   ## License 
