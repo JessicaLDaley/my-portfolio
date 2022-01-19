@@ -5,7 +5,6 @@ import {
   Flex,
   Box,
   Heading,
-  Link,
   IconButton,
   Button,
   VStack,
@@ -22,8 +21,6 @@ import {
 } from '@chakra-ui/react';
 import {
   MdEmail,
-
-  MdLinkedin,
   MdOutlineEmail,
 } from 'react-icons/md';
 import { BsGithub, BsLinkedin, BsPerson } from 'react-icons/bs';

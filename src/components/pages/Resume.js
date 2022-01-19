@@ -54,7 +54,7 @@ export default function Resume() {
                         px={10}
                         color={'white'}
                         rounded={'full'}>
-                        Front-End Skills and Technologies
+                        Skills and Technologies
                     </Text>
                     
                 </Stack>
@@ -98,7 +98,7 @@ export default function Resume() {
                         </ListItem>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
-                            Chakra UI
+                            Chakra UI  
                         </ListItem>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
@@ -108,28 +108,7 @@ export default function Resume() {
                             <ListIcon as={CheckIcon} color="primary.400" />
                             GIMP
                         </ListItem>
-                    </List>
-                    </Box>
-                    <Stack
-                   
-                    p={6}
-                    color={useColorModeValue('primary.100', 'primary.100')}
-                    align={'right'}>
-                    <Text
-                     textAlign={'center'}
-                        fontSize={'xl'}
-                        fontWeight={500}
-                        className="gradient"
-                        p={2}
-                        px={5}
-                        color={'white'}
-                        rounded={'full'}>
-                        Back-End Skills and Technologies
-                    </Text>
-                </Stack>
-                <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List  fontSize="lg"  textAlign={'left'} ml="10rem" spacing={3}>
-                    <ListItem>
+                        <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Node.js
                         </ListItem>
@@ -137,22 +116,7 @@ export default function Resume() {
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Express.js
                         </ListItem>
-                        <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
-                            MySQL
-                        </ListItem>
-                        <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
-                            Sequelize
-                        </ListItem>
-                        <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
-                            MongoDB
-                        </ListItem>
-                        <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
-                            Mongoose
-                        </ListItem>
+                        
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Heroku
@@ -165,42 +129,39 @@ export default function Resume() {
                             <ListIcon as={CheckIcon} color="primary.400" />
                             Insomnia
                         </ListItem>
-                        <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
-                            Jest
-                        </ListItem>
-                        </List>
-                 
+                        
+                    </List>
+                   
+                    
                     <Button   
          
-        ml="7rem"
-         mb="1"
-         mt="10"
-         pt="1"
-         className="resumebtn"
-          bg={'green.400'}
-          color={'white'}
-          rounded={'xl'}
-          boxShadow="dark-lg"
-          _hover={{
-            bg: 'green.500',
-          }}
-          _focus={{
-            bg: 'green.500',
-          }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><Text color="white">Download My Resume</Text> 
-          </a></Button>
+         ml="7rem"
+          mb="1"
+          mt="10"
+          pt="1"
+          className="resumebtn"
+           bg={'green.400'}
+           color={'white'}
+           rounded={'xl'}
+           boxShadow="dark-lg"
+           _hover={{
+             bg: 'green.500',
+           }}
+           _focus={{
+             bg: 'green.500',
+           }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><Text color="white">Download My Resume</Text> 
+           </a></Button>
+                    </Box>
+                    
+                  
+                   </Box>
+                  
+                    
+                   
        
-             
-                </Box>
-            </Box>
-
-          
-                   
-                   
             
     
-          
-            </GridItem>
+          </GridItem>
             </Stack>
 
      
@@ -209,9 +170,8 @@ export default function Resume() {
       
        
         </Grid>
-       
         </Center>
-        </Text>
+  </Text>
         
     
             

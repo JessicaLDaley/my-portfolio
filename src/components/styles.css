@@ -27,14 +27,14 @@ a {
 }
 .vertical3 {
     border-left: 6px dotted gray;
-    height: 1500px;
+    height: 1100px;
     position:absolute;
-    right: 26%;
+    right: 25%;
     
 }
 .vertical4 {
     border-left: 6px dotted gray;
-    height: 1500px;
+    height: 1100px;
     position:absolute;
     left: 18%;
     
@@ -132,7 +132,17 @@ margin:3px;
 /* //////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////// */
   /* resume */
 
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
+  @media only screen and (min-width : 1800px) and (max-width : 2000px) {
+    .card-w {
+  margin-left:10px;
+      
+      
+   
+        
+        
+    }
+  } 
+  @media screen and (min-width : 300px) and (max-width : 3000px) {
     .row1 {
         float:left;
       margin-right:40rem;
@@ -183,23 +193,63 @@ margin:3px;
         
     }
   }
-  @media screen and (min-width : 200px) and (max-width : 1650px) {
+  @media screen and (min-width : 200px) and (max-width : 1400px) {
     .vertical4 {
-        left: -4%;
-        height:1px;
-        color:white;
+      right: -8%;
+      height:1px;
+      color:white;
         
         
     }
   }  
  
-  @media screen and (min-width : 200px) and (max-width : 1650px) {
+  @media screen and (min-width : 200px) and (max-width : 1405px) {
     .vertical3 {
-        right: -4%;
-        height:1px;
-        color:white;
+      right: -8%;
+      height:1px;
+      color:white;
+  
+     
         
         
+    }
+  }
+
+  @media only screen and (min-width : 1406px)and (max-width: 1800px)  {
+    .vertical3 {
+      right: 18%;
+
+    }
+  }
+  @media only screen and (min-width : 1792px)and (max-width:1808px)  {
+    .vertical3 {
+      right: 45%;
+
+    }
+  }
+  @media only screen and (min-width : 1740px)and (max-width: 1808px)  {
+    .vertical3 {
+      right: 20%;
+
+    }
+  }
+  @media only screen and (min-width : 2030px)and (max-width: 2285px)  {
+    .vertical3 {
+      right: 38%;
+
+    }
+  }
+  @media only screen and (min-width : 2280px)and (max-width: 2265px)  {
+    .vertical3 {
+      right:55%;
+
+    }
+  }
+  @media only screen and (min-width : 2294px)and (max-width: 4000px)  {
+    .vertical3 {
+      color:white;
+      height:1px;
+
     }
   }
  /* end resume */

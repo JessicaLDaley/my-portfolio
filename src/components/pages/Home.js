@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles.css";
 import profile_pic from "../images/Me.jpg"
 
-function Home() {
+function About() {
     return (
         
         <div className="jumbotron jumbotron-fluid">   
@@ -27,6 +27,6 @@ function Home() {
     );
 }
 
-export default Home;
+export default About;
 
 
