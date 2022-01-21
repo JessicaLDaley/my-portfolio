@@ -44,6 +44,10 @@ a {
     padding: 1%;
     font-size: 1.25em;
 }
+.nav-item:hover {
+font-size:1.50em;
+text-shadow: 3px 1px 8px rgb(123, 187, 123);
+}
 .floatright{
     float:right;
 }
