@@ -8,7 +8,7 @@ function About() {
         <div className="jumbotron jumbotron-fluid">   
         <div className="moreLeft"><img className="profile" src={profile_pic} alt="profile" />
         <div className="headerText">
-        <h1 className='hello'>Hello</h1>
+        <h1 className='hello'>Hello 👋🏻</h1>
             <p className="bio">
 					My name is Jessica Daley. 
                     <br/>
