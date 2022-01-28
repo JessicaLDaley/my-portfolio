@@ -1,6 +1,4 @@
 import React from 'react';
-import downloadResume from "../images/downloadResume.svg";
-import github_icon from "../images/github_icon.svg";
 import "../styles.css";
 import resumeDoc from "../images/Resume Jessica Daley.docx";
 import {
@@ -9,7 +7,6 @@ import {
     Text,
     Stack,
     List,
-    IconButton,
     ListItem,
     ListIcon,
     Button,
@@ -18,7 +15,7 @@ import {
     Grid
 } from '@chakra-ui/react';
 import { CheckIcon } from '@chakra-ui/icons';
-import { BsGithub} from 'react-icons/bs';
+
 
 export default function Resume() {
     return (
