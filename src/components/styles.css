@@ -1,8 +1,12 @@
 .footer {
     text-align: center;
     margin: auto;
+    border-top:inset 2px gray;
 }
-
+.bg-dark {
+  border-top:inset 2px gray;
+  background-color: black;
+}
 a {
     color:rgb(207, 220, 233) !important;
 }
@@ -43,6 +47,11 @@ a {
 .nav {
     padding: 1%;
     font-size: 1.25em;
+    border-top:inset 2px gray;
+    border-bottom:inset 2px gray;
+    border-left:#212529;
+    
+   
 }
 .nav-item:hover {
 font-size:1.50em;
