@@ -44,7 +44,7 @@ export default function Resume() {
                     align={'center'}>
                     <Text
                         textAlign="center"
-                        fontSize={'xl'}
+                        fontSize={'25px'}
                         fontWeight={500}
                         className="gradient"
                         p={1}
@@ -58,72 +58,72 @@ export default function Resume() {
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
                     <List className="resume-list"fontSize="lg" textAlign={'left'} ml="10rem"spacing={3}>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             JavaScript
                         </ListItem>
                         <ListItem>     
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             HTML
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             CSS
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             React
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             AJAX
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             jQuery
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Multer s3
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Bootstrap
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Bulma
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Chakra UI  
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Adobe Photoshop
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             GIMP
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Node.js
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Express.js
                         </ListItem>
                         
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Heroku
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             MongoDB Atlas
                         </ListItem>
                         <ListItem>
-                            <ListIcon as={CheckIcon} color="primary.400" />
+                            <ListIcon as={CheckIcon} color="primary.900" />
                             Insomnia
                         </ListItem>
                         
@@ -131,22 +131,25 @@ export default function Resume() {
                    
                     
                     <Button   
-         
-         ml="7rem"
-          mb="1"
-          mt="10"
-          pt="1"
-          className="resumebtn"
-           bg={'green.400'}
-           color={'white'}
-           rounded={'xl'}
+           variant="solid"
+           ml="6rem"
+           mb="1"
+           mt="9"
+           pt="-1"
+           className="resumebtn"
+           bg={'primary.100'}
+           color={'primary.100'}
+           rounded={'md'}
            boxShadow="dark-lg"
            _hover={{
-             bg: 'green.500',
+               bg: 'green.500' ,
+           
+               
            }}
            _focus={{
              bg: 'green.500',
-           }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><Text color="white">Download My Resume</Text> 
+            
+           }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><h4 className="text"color="primary.100">Download My Resume</h4> 
            </a></Button>
                     </Box>
                     

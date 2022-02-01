@@ -26,9 +26,9 @@ export default function blogPostWithImage() {
     
     <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(1, 1fr)' >
     <Stack>
-      <GridItem>
+      <GridItem >
         <Center justify={["left",  "flex-end", "flex-end"]}py={9}>
-          <Flex className="work">
+          <Flex  className="work">
             <Box
               maxW={'350px'}
               maxH={'800px'}
@@ -36,7 +36,7 @@ export default function blogPostWithImage() {
               w={'full'}
               ml={"1"}
               mr={"1"}
-              bg='white, primary.200'
+              
               boxShadow="dark-lg"
               rounded={'md'}
               mt="1"
@@ -45,7 +45,6 @@ export default function blogPostWithImage() {
               overflow={'hidden'}>
               <Box
                 maxH={'300px'}
-                bg={'primary.200'}
                 mt={-6}
                 mx={-6}
                 mb={2}
@@ -60,13 +59,13 @@ export default function blogPostWithImage() {
               </Box>
               <Stack>
                 <Heading
-                  color='primary.100, white'
+                  className="works"
                   fontSize={'2xl'}
-                  fontFamily={'body'}
+                  fontFamily={'Courier New, monospace;'}
                   mt="2">
                   Travel Tribe
                 </Heading>
-                <Text color={'primary.200'}>
+                <Text color={'black'}  fontFamily={'Courier New, monospace;'}>
                   MongoDB, Express, Node.js, React, Chakra
                 </Text>
               </Stack>
@@ -75,10 +74,10 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                  <Text fontWeight={600}>Jessica Daley</Text>
-                  <Link href="https://github.com/JessicaLDaley/TravelTribe"><Text color="primary.400">View on GitHub</Text>
-                    <ExternalLinkIcon color="primary.400" mx='2px' /></Link>
+                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                  <Text  fontFamily={'Courier New, monospace;'}fontWeight={600}>Jessica Daley</Text>
+                  <Link href="https://github.com/JessicaLDaley/TravelTribe"><Text  fontFamily={'Courier New, monospace;'} color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon font-size="20px" color="primary.900" mx='2px'/></Link>
                 </Stack>
               </Stack>
             </Box>
@@ -87,7 +86,7 @@ export default function blogPostWithImage() {
       </GridItem>
     </Stack>
  
-    <div class = "vertical"></div>
+    <div className = "vertical"></div>
     {/* work #2 */}
    
    
@@ -99,7 +98,7 @@ export default function blogPostWithImage() {
               maxW={'350px'}
               maxH={'800px'} ml={4}
               w={'full'}
-              bg='white, primary.200'
+              bg='white, black'
               boxShadow="dark-lg"
               rounded={'md'}
               p={6}
@@ -126,13 +125,14 @@ export default function blogPostWithImage() {
               </Box>
               <Stack>
                 <Heading
+                  className="works"
                   color='primary.100, white'
                   fontSize={'2xl'}
-                  fontFamily={'body'}
+                  fontFamily={'Courier New, monospace'}
                   mb='-2'>
                   Movie Foodie
                 </Heading>
-                <Text color={'primary.200'}>
+                <Text fontFamily={'Courier New, monospace;'} color="primary.900"color={'black'}>
                   HTML, CSS, JavaScript, Bulma, TMDB API
                 </Text>
               </Stack>
@@ -141,10 +141,10 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                  <Text fontWeight={600}>Jessica Daley</Text>
-                  <Link href="https://github.com/JessicaLDaley/MovieFoodie"><Text color="primary.400">View on GitHub</Text>
-                    <ExternalLinkIcon color="primary.400" mx='2px' /></Link>
+                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                  <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
+                  <Link href="https://github.com/JessicaLDaley/MovieFoodie"><Text fontFamily={'Courier New, monospace;'} color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon font-size="20px"color="primary.900" mx='2px' /></Link>
                 </Stack>
               </Stack>
             </Box>
@@ -162,7 +162,7 @@ export default function blogPostWithImage() {
               maxW={'350px'}
               maxH={'800px'}
               w={'full'}
-              bg='white, primary.200'
+              bg='#ecf5f1, black'
               boxShadow="dark-lg"
               rounded={'md'}
               p={5}
@@ -190,13 +190,14 @@ export default function blogPostWithImage() {
               </Box>
               <Stack>
                 <Heading
+                  className="works"
                   color='primary.100, white'
                   fontSize={'2xl'}
-                  fontFamily={'body'}
+                  fontFamily={'Courier New, monospace'}
                   mt='1'>
                   PepWeb
                 </Heading>
-                <Text color={'primary.200'}>
+                <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
                   MySQL, Express, Node.JS, Multer-s3, Handlebars
                 </Text>
               </Stack>
@@ -205,10 +206,10 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                  <Text fontWeight={600}>Jessica Daley</Text>
-                  <Link color="primary.400" href="https://github.com/JessicaLDaley/PepWeb"><Text color="primary.400">View on GitHub</Text>
-                    <ExternalLinkIcon mx='2px' color="primary.400" /></Link>
+                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                  <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
+                  <Link color="primary.900" href="https://github.com/JessicaLDaley/PepWeb"><Text fontFamily={'Courier New, monospace;'}color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon font-size="20px" mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
             </Box>
@@ -253,13 +254,14 @@ export default function blogPostWithImage() {
               </Box>
               <Stack>
                 <Heading
+                  className="works"
                   color='primary.100, white'
                   fontSize={'2xl'}
-                  fontFamily={'body'}
+                  fontFamily={'Courier New, monospace'}
                   mt="-4">
                   Employee Tracker 
                 </Heading>
-                <Text color={'primary.200'}>
+                <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
                   MySQL, Express, Node.JS
                 </Text>
               </Stack>
@@ -268,10 +270,10 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                  <Text fontWeight={600}>Jessica Daley</Text>
-                  <Link color="primary.400" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.400">View on GitHub</Text>
-                    <ExternalLinkIcon mx='2px' color="primary.400" /></Link>
+                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                  <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon font-size="20px"mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
             </Box>

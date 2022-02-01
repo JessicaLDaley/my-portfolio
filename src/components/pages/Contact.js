@@ -39,22 +39,22 @@ function Contact(props) {
           borderRadius="lg"
           m={{ sm: 4, md: 16, lg: 10 }}
           p={{ sm: 5, md: 5, lg: 16 }}>
-          <Box p={4}>
+          <Box className="heading" p={4}>
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
-                <Box font-family="Courier New, monospace;className" className="contact-head">
-                  <Heading className="contact-me"> Contact Me</Heading>
+                <Box className="contact-me" font-family={"Courier New, monospace"}>
+                  <h1 fontFamily={"Courier New, monospace"} className="contact"> Contact Me</h1>
 
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                    <VStack pl={0} spacing={3} alignItems="flex-start">
-                      <Image mt="28px" ml="50px" width="8rem" className="profile-contact" src={profile_pic} alt="profile"></Image>
+                    <VStack  pl={0} spacing={3} alignItems="flex-start">
+                      <Image mt="28px" ml="55px" width="8rem" className="profile-contact" src={profile_pic} alt="profile"></Image>
 
                     </VStack>
                   </Box>
                   <HStack
                     mt={{ lg: 10, md: 10 }}
                     spacing={5}
-                    px={5}
+                    px={6}
                     alignItems="flex-start">
 
                     <a href="https://github.com/JessicaLDaley">
@@ -138,20 +138,21 @@ function Contact(props) {
                         <FormControl id="name" float="right">
 
                           <Button
+                          className="messagebtn"
                             mt="-8"
+                           
                             type="submit"
                             variant="solid"
-                            bg="green.400"
-                            color="white"
-                            pt="1"
-                            boxShadow="dark-lg"
+                            bg="primary.200"
+                            color="black"
+                             boxShadow="dark-lg"
                             _hover={{
                               bg: 'green.500',
                             }}
                             _focus={{
                               bg: 'green.500',
-                            }}>
-                            Send Message
+                            }}><h4 className="messageText">
+                            Send Message</h4>
                           </Button>
 
 

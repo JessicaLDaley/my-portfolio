@@ -70,7 +70,7 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem className="nav-item" to="/">About</MenuItem>
-        <MenuItem className="nav-item" to="/Portfolio">Portfolio</MenuItem>
+        <MenuItem className="nav-item" to="/Projects">Projects</MenuItem>
         <MenuItem className="nav-item" to="/Resume" >Resume</MenuItem>
         <MenuItem className="nav-item" to="/Contact" isLast>Contact</MenuItem>
       
