@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css';
 import NavBar from "./components/Nav.js";
 import About from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
@@ -10,7 +11,7 @@ import HeroImage from "./components/Hero";
 
 function App() {
   return (
-    <Router basename={ process.env.PUBLIC_URL }>
+    <Router className="background" basename={ process.env.PUBLIC_URL }>
       <div>
         <HeroImage/>
         <NavBar/>

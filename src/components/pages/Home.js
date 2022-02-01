@@ -8,16 +8,13 @@ function About() {
         <div className="jumbotron jumbotron-fluid">   
         <div className="moreLeft"><img className="profile" src={profile_pic} alt="profile" />
         <div className="headerText">
-        <h1 className='hello'>Hello 👋🏻</h1>
-            <p className="bio">
-					My name is Jessica Daley. 
-                    <br/>
-                    I'm a coding bootcamp grad from UCONN School of Engineering, as well as 
-                    a visual artist with experience in a wide range of mediums. 
-					My artistic background brings an insightful eye to the visual and physical flow of front-end applications. 
-                    I'm a dedicated problem solver with a love for learning and
-                    a passion for creating efficient, intuitive and beautiful user interfaces. 
-                    
+        <h1 className='hello'>JESSICA DALEY</h1>
+            <p className="what-i-do">
+            Visual artist meets Web Developer.
+                    </p>
+                    <p className='bioStyle'>
+                    Creating beautiful and engaging digital experiences.
+                    Focused on simlicity and purpose.  
                    
 				</p>
         </div>

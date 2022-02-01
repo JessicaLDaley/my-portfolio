@@ -42,8 +42,8 @@ function Contact(props) {
           <Box p={4}>
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
-                <Box className="contact-head">
-                  <Heading className="contact-me" > Contact Me</Heading>
+                <Box font-family="Courier New, monospace;className" className="contact-head">
+                  <Heading className="contact-me"> Contact Me</Heading>
 
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                     <VStack pl={0} spacing={3} alignItems="flex-start">
@@ -64,7 +64,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={true}
-                        _hover={{ bg: 'primary.400' }}
+                        _hover={{ bg: 'green.500' }}
                         icon={<BsGithub size="43px" />}
                       /></a>
 
@@ -75,7 +75,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={false}
-                        _hover={{ bg: 'primary.400' }}
+                        _hover={{ bg: 'green.500' }}
                         icon={<BsLinkedin size="40px" />}
                       /></a>
 
@@ -86,7 +86,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={false}
-                        _hover={{ bg: 'primary.400' }}
+                        _hover={{ bg: 'green.500' }}
                         icon={<MdEmail size="50px" />}
                       /></a>
 

@@ -43,7 +43,7 @@ export default function Resume() {
                     color={useColorModeValue('primary.100', 'primary.100')}
                     align={'center'}>
                     <Text
-                    textAlign="center"
+                        textAlign="center"
                         fontSize={'xl'}
                         fontWeight={500}
                         className="gradient"
@@ -56,7 +56,7 @@ export default function Resume() {
                     
                 </Stack>
                 <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List fontSize="lg" textAlign={'left'} ml="10rem"spacing={3}>
+                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="10rem"spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.400" />
                             JavaScript
