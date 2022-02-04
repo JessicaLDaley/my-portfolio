@@ -36,6 +36,8 @@
 
 .what-i-do{
   font-family:Courier New, monospace;
+  font-weight: 600;
+  margin-top:10px;
  
 }
 .bioStyle{
@@ -46,7 +48,7 @@ text-shadow: 2px 2px 4px rgb(192, 191, 191);
 }
 .footer {
     text-align: center;
-    margin: auto;
+    font-size:20px;
     border-top:inset 2px gray;
     font-family:Courier New, monospace;
 }
@@ -65,7 +67,7 @@ a {
 .messagebtn{
   font-family:Courier New, monospace;
   border: 2px outset rgb(85, 84, 84);
-  color:black;
+  
  
 }
 
@@ -92,7 +94,7 @@ a {
     border-left: 6px dotted gray;
     height: 1100px;
     position:absolute;
-    right: 25%;
+    right: 18%;
     
 }
 .vertical4 {
@@ -135,11 +137,12 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 }
 
 .hello{
-    padding-top:4%;
+    width:100%;
+    padding-top:3%;
     font-size: 2.5em; left: 20%;
     text-shadow: 4px 4px 8px rgb(116, 115, 115);
     font-family:Courier New, monospace;
-    
+  
 }
 
 .profile {
@@ -175,15 +178,23 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 }
 .resumebtn{
   font-family:Courier New, monospace;
-  font-size: 40px;
+  font-size: 30px;
   border: 2px outset rgb(85, 84, 84);
- 
-
+  margin-left:175px;
+ color:white;
 }
+
 
 .resumeLink{
   font-weight: lighter;
   font-size:20px;
+  padding:50px 50px;
+  display: block;
+
+  
+}
+.resumeLink h4:hover{
+  color:black;
 }
 
 .pt{
@@ -281,11 +292,11 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
     }
   }
-  @media screen and (min-width : 300px) and (max-width : 1000px) {
+  @media screen and (min-width : 200px) and (max-width : 1000px) {
     .resumebtn {
-        margin-right:5rem;
+     margin-left:180px !important;
      
-      
+   
    
         
         
@@ -380,29 +391,29 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 /* end porfolio */
  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* homepage */
-  @media screen and (min-width : 200px) and (max-width : 900px) {
+  @media screen and (min-width : 200px) and (max-width : 1200px) {
     .profile {
        
        width:50%;
        margin-left:25%;
        margin-bottom:7px;
-       border-radius: 0px 0px 0px 100px;
        border-style:inset;
-       box-shadow: 10px 10px 5px #ccc;
-      
+       box-shadow: 15px 15px 5px #ccc;
+       border-radius: 100px 100px 100px 0px;
       
    
         
         
     }
   }
-  @media screen and (min-width : 200px) and (max-width : 500px) {
+  @media screen and (min-width : 200px) and (max-width : 350px) {
     .what-i-do {
        
        width:100%;
        text-align: left;
-       margin-left:30px;
+       margin-left:26px;
        margin-right:15px;
+      
       
       
    
@@ -410,12 +421,12 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
     }
   }
-@media screen and (min-width : 200px) and (max-width : 500px) {
+@media screen and (min-width : 200px) and (max-width : 350px) {
     .bioStyle {
        
        width:100%;
        text-align: left;
-       margin-left:30px;
+       margin-left:26px;
        margin-right:15px;
       
       
@@ -424,12 +435,60 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
     }
   }
-  @media only screen and (max-width: 500px)  {
+  @media screen and (min-width : 351px) and (max-width : 700px) {
+    .what-i-do {
+       
+       width:100%;
+       text-align: left;
+       margin-left:50px;
+       margin-right:10px;
+      
+      
+      
+   
+        
+        
+    }
+  }
+@media screen and (min-width : 351px) and (max-width : 700px) {
+    .bioStyle {
+       
+       width:100%;
+       text-align: left;
+       margin-left:50px;
+       margin-right:10px;
+  
+      
+      
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 200px) and (max-width : 351px) {
+    .bioStyle {
+      font-size:5px;
+      padding-bottom:4px;
+      
+      
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 150px) and (max-width: 326px)  {
     .hello {
-       
+      
        width:100%;
-       text-align: left;
-       margin-left:30px;
+       font-size:30px;
+      padding-bottom:5px;
+     margin-left:2rem;
+      font-weight: 500;
+    
+       
+      
       
       
    
@@ -437,7 +496,76 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
     }
   }
-
+  @media screen and (min-width : 327px) and (max-width: 423px)  {
+    .hello {
+      
+       width:100%;
+       font-size:30px;
+      padding-bottom:5px;
+     margin-left:4rem;
+      font-weight: 500;
+    
+       
+      
+      
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 424px) and (max-width: 520px)  {
+    .hello {
+      
+       width:100%;
+       font-size:30px;
+      padding-bottom:5px;
+     margin-left:5rem;
+      font-weight: 500;
+    
+       
+      
+      
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 521px) and (max-width: 800px)  {
+    .hello {
+      
+       width:100%;
+       font-size:30px;
+      padding-bottom:5px;
+     margin-right:3rem;
+      font-weight: 500;
+    
+       
+      
+      
+      
+   
+        
+        
+    }
+  }
+  
+  @media screen and (min-width : 801px) and (max-width: 1400px)  {
+    .hello {
+    padding-right:80px;
+    padding-bottom:5px;
+      
+    
+       
+      
+      
+      
+   
+        
+        
+    }
+  }
   @media only screen and (max-width: 500px) {
     .what-i-do {
        
@@ -461,10 +589,55 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
     }
   }
-  @media screen and (min-width : 500px) and (max-width : 1500px)   {
+  @media screen and (min-width : 521px) and (max-width : 749px)   {
     .hello {
        padding-top:2px;
+       font-size: 35px;
+       padding-left:9rem;
+      
+    
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 750px) and (max-width : 1190px)   {
+    .hello {
+       padding-top:2px;
+       font-size: 50px;
+       padding-left:10rem;
+      
+    
+      
+   
+        
+        
+    }
+  }
+
+
+  @media screen and (min-width : 200px) and (max-width : 1499px)   {
+    .bioStyle {
        
+       margin-left:27px;
+       padding-bottom:5px;
+       font-weight: 700;
+       text-align: center;
+       
+      
+   
+        
+        
+    }
+  }
+  @media screen and (min-width : 200px) and (max-width : 1499px)   {
+    .what-i-do {
+       
+       margin-left:27px;
+      margin-bottom:15px;
+      font-weight: 700;
+      text-align: center;
       
    
         

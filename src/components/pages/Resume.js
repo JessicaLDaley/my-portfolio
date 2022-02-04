@@ -29,10 +29,10 @@ export default function Resume() {
         <Stack>
           <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={9}>
            <Box
-              className="card-w"
+                className="card-w"
                 maxW={'full'}
-                w={'30rem'}
-               ml="40rem"
+                w={'40rem'}
+                ml="40rem"
                 bg={useColorModeValue('primary.100', 'primary.100')}
                 boxShadow="dark-lg"
                 rounded={'md'}
@@ -41,10 +41,11 @@ export default function Resume() {
                     textAlign={'center'}
                     p={6}
                     color={useColorModeValue('primary.100', 'primary.100')}
+                    
                     align={'center'}>
                     <Text
                         textAlign="center"
-                        fontSize={'25px'}
+                        fontSize={'20px'}
                         fontWeight={500}
                         className="gradient"
                         p={1}
@@ -55,8 +56,8 @@ export default function Resume() {
                     </Text>
                     
                 </Stack>
-                <Box bg={useColorModeValue('gray.50', 'gray.900')} px={7} py={10}>
-                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="10rem"spacing={3}>
+                <Box  bg="white"px={7} py={10}>
+                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="14rem"spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.900" />
                             JavaScript
@@ -127,30 +128,31 @@ export default function Resume() {
                             Insomnia
                         </ListItem>
                         
-                    </List>
+                        </List>
                    
-                    
                     <Button   
            variant="solid"
-           ml="6rem"
            mb="1"
            mt="9"
            pt="-1"
+           width="40%"
            className="resumebtn"
            bg={'primary.100'}
-           color={'primary.100'}
-           rounded={'md'}
+           color="white"
            boxShadow="dark-lg"
            _hover={{
-               bg: 'green.500' ,
-           
-               
-           }}
-           _focus={{
-             bg: 'green.500',
+            bg:'green.400',
+            color:"black"
+          }}
+          _focus={{
+            bg:'green.400',
+            color:"black"
             
-           }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><h4 className="text"color="primary.100">Download My Resume</h4> 
-           </a></Button>
+          }}><a className="resumeLink" href={resumeDoc} target="_blank" rel="noreferrer"><h4>
+            Download Resume</h4></a>
+          </Button>
+           
+          
                     </Box>
                     
                   

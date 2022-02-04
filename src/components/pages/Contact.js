@@ -32,8 +32,8 @@ function Contact(props) {
       <Flex>
         <Box
           className="form-box"
-          bg=" background: rgb(9,9,9);
-          background: linear-gradient(135deg, rgba(9,9,9,1) 0%, rgba(41,39,39,1) 34%, rgba(213,212,212,1) 100%); "
+          bg=" background:rgb(33,37,41) ;
+          background:linear-gradient(135deg, rgba(33,37,41,1) 35%, rgba(250,249,249,1) 100%);"
           color="white"
           boxShadow="dark-lg"
           borderRadius="lg"
@@ -43,7 +43,7 @@ function Contact(props) {
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box className="contact-me" font-family={"Courier New, monospace"}>
-                  <h1 fontFamily={"Courier New, monospace"} className="contact"> Contact Me</h1>
+                  <h3 fontFamily={"Courier New, monospace"} className="contact"> Contact Me</h3>
 
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                     <VStack  pl={0} spacing={3} alignItems="flex-start">
@@ -64,7 +64,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={true}
-                        _hover={{ bg: 'green.500' }}
+                        _hover={{ bg: 'green.400' }}
                         icon={<BsGithub size="43px" />}
                       /></a>
 
@@ -75,7 +75,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={false}
-                        _hover={{ bg: 'green.500' }}
+                        _hover={{ bg: 'green.400' }}
                         icon={<BsLinkedin size="40px" />}
                       /></a>
 
@@ -86,7 +86,7 @@ function Contact(props) {
                         size="lg"
                         color="white"
                         isRound={false}
-                        _hover={{ bg: 'green.500' }}
+                        _hover={{ bg: 'green.400' }}
                         icon={<MdEmail size="50px" />}
                       /></a>
 
@@ -140,18 +140,21 @@ function Contact(props) {
                           <Button
                           className="messagebtn"
                             mt="-8"
-                           
                             type="submit"
                             variant="solid"
-                            bg="primary.200"
-                            color="black"
+                            bg="primary.100"
+                            color="white"
                              boxShadow="dark-lg"
                             _hover={{
-                              bg: 'green.500',
+                              bg: 'green.400',
+                              color: 'black'
                             }}
                             _focus={{
-                              bg: 'green.500',
-                            }}><h4 className="messageText">
+                              bg: 'green.400',
+                              color: 'black'
+                              
+                            }}
+                            ><h4 className="messageText">
                             Send Message</h4>
                           </Button>
 
