@@ -24,7 +24,7 @@ import {
 export default function blogPostWithImage() {
   return (
     
-    <Grid className="row2" templateRows='repeat(1, 1fr)' templateColumns='repeat(1, 1fr)' >
+    <Grid className="row2" templateRows='repeat(1, 1fr)' >
     <Stack>
       <GridItem >
         <Center justify={["left",  "flex-end", "flex-end"]}py={9}>
@@ -86,7 +86,7 @@ export default function blogPostWithImage() {
       </GridItem>
     </Stack>
  
-    <div className = "vertical"></div>
+   
     {/* work #2 */}
    
    
@@ -152,7 +152,7 @@ export default function blogPostWithImage() {
         </Center>
       </GridItem>
     </Stack>
-    <div class = "vertical2"></div>
+   
     {/* work #3 */}
     <Stack className="responsive">
       <GridItem>

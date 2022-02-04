@@ -106,13 +106,13 @@ a {
     
 }
 .nav {
-    padding: 1%;
+   
     font-size: 1.50em;
     border-top:inset 2px gray;
     border-bottom:inset 2px gray;
     border-left:#212529;
     font-family:Courier New, monospace;
-    width: 100%;
+    width: 100% !important;
     overflow-x: auto;
     
    
@@ -164,9 +164,9 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 }
 
 .hero {
-    width: 100%;
+    width: 100% !important;
     height: 3%;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .Wrapper {
@@ -183,7 +183,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   font-family:Courier New, monospace;
   font-size: 30px;
   border: 2px outset rgb(85, 84, 84);
-  margin-left:85px;
+  margin-left:130px;
  color:white;
  
 }
@@ -240,12 +240,18 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 .resume-list{
   font-family:Courier New, monospace;
   font-weight: bold;
+  padding-left:5rem;
     
 }
 .card-w {
-  width:28rem;
+  width:40rem;
   margin-left:40rem;
   overflow-x: hidden;
+}
+.row2{
+  grid-template-columns: repeat(2, 1fr);
+
+
 }
 /* //////////////////////////////////// MEDIA QUIERIES//////////////////////////////////////////////////////// */
   /* resume */
@@ -253,7 +259,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
  
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .card-w {
-  width:100%rem;
+  width:25rem;
     overflow-x:hidden;  
     margin-left:38rem;
     margin-right:-1rem;
@@ -269,8 +275,8 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
     .resume-list {
 
 width:20rem;
-padding-left:-5px;
-
+padding-left:0px;
+padding-right:15rem;
      
     }
   } 
@@ -279,18 +285,7 @@ padding-left:-5px;
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .gradient {
 margin-left:1rem;
-
-;
-
-
-   
-    
-   
-      
-   
-        
-        
-    }
+   }
   } 
   @media screen and (min-width : 300px) and (max-width : 3000px) {
     .row1 {
@@ -353,12 +348,19 @@ margin-left:1rem;
         
     }
   }
+  
+  @media screen and (min-width : 200px) and (max-width : 500px) {
+  .row2{
+    grid-template-columns: repeat(1, 1fr);
 
+  }
+}
+/* 
   @media screen and (min-width : 200px) and (max-width : 1400px) {
     .vertical4 {
       right: -8%;
       height:1px;
-      color:white;
+      color:transparent;
         
         
     }
@@ -368,7 +370,7 @@ margin-left:1rem;
     .vertical3 {
       right: -8%;
       height:1px;
-      color:white;
+      color:transparent;
   
      
         
@@ -408,7 +410,7 @@ margin-left:1rem;
   }
   @media only screen and (min-width : 2294px)and (max-width: 4000px)  {
     .vertical3 {
-      color:white;
+      color:transparent;
       height:1px;
 
     }
@@ -417,32 +419,33 @@ margin-left:1rem;
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
  /* portfolio */
 
-  @media screen and (min-width : 200px) and (max-width : 1200px) {
+  /* @media screen and (min-width : 200px) and (max-width : 1200px) {
     .vertical {
         left: -4%;
         height:1px;
         height:1px;
-        color:white;
+        color:transparent;
         
         
     }
-  }  
+  }   */
  
-  @media screen and (min-width : 200px) and (max-width : 1200px) {
+  /* @media screen and (min-width : 200px) and (max-width : 1200px) {
     .vertical2 {
         right: -8%;
         height:1px;
-        color:white;
+       color:transparent;
    
         
         
     }
-  } 
+  }   */
  
 /* end porfolio */
  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* homepage */
-  @media screen and (min-width : 200px) and (max-width : 1200px) {
+ 
+@media screen and (min-width : 200px) and (max-width : 1200px) {
     .profile {
        
        width:50%;
@@ -457,6 +460,7 @@ margin-left:1rem;
         
     }
   }
+  
   @media screen and (min-width : 200px) and (max-width : 350px) {
     .what-i-do {
        
@@ -741,6 +745,18 @@ margin-left:1rem;
         
     }
   }
+  @media screen and (min-width : 250px) and (max-width : 470px)   {
+   
+      .messagebtn  {
+      
+         margin-left:1rem;
+        
+     
+          
+          
+      }
+    } 
+    
   @media screen and (min-width : 200px) and (max-width : 1200px)   {
     .down-arrow {
       width: 0px;
@@ -774,29 +790,6 @@ margin-left:1rem;
       
   }
 }
-@media screen and (min-width : 300px) and (max-width : 440px)   {
-  .hero{
-  width:100%;
-  overflow-x: hidden;
-  margin:0px;
-  padding:0px;   
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 
-  }
-}
-@media screen and (min-width : 300px) and (max-width : 440px)   {
-  .nav{
-  width:100%;
- overflow-x: hidden;
- margin:0px;
- padding:0px;
- margin-right:-2rem; 
-      
-  }
-}
 
 

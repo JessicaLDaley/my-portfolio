@@ -19,9 +19,8 @@ import { CheckIcon } from '@chakra-ui/icons';
 
 export default function Resume() {
     return (
-        <Text>
-        <div class = "vertical4"></div>
-        <div class = "vertical3"></div>
+       
+       
       
 <Center>
  
@@ -171,7 +170,7 @@ export default function Resume() {
        
         </Grid>
         </Center>
-  </Text>
+
         
     
             
