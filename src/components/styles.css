@@ -253,7 +253,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
  
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .card-w {
-  width:25rem;
+  width:100%rem;
     overflow-x:hidden;  
     margin-left:38rem;
     margin-right:-1rem;
