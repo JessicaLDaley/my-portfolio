@@ -188,8 +188,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 .resumeLink{
   font-weight: lighter;
   font-size:20px;
-  padding:50px 50px;
-  display: block;
+  
 
   
 }
@@ -709,5 +708,16 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
     height: 0px;
     border: 0px transparent;
     border-radius: 0px;
+  }
+}
+@media screen and (min-width : 330px) and (max-width : 440px)   {
+  .text-muted {
+    margin-right:7px;
+     margin-left:7px;
+     font-size:15px;
+    
+ 
+      
+      
   }
 }
