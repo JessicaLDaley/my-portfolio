@@ -30,13 +30,10 @@ export default function Resume() {
           <GridItem justify={["center", "space-between", "flex-end", "flex-end"]}py={9}>
            <Box
                 className="card-w"
-                maxW={'full'}
-                w={'40rem'}
-                ml="40rem"
                 bg={useColorModeValue('primary.100', 'primary.100')}
                 boxShadow="dark-lg"
                 rounded={'md'}
-                overflow={'hidden'}>
+                 overflow={'hidden'}>
                 <Stack
                     textAlign={'center'}
                     p={6}
@@ -57,7 +54,7 @@ export default function Resume() {
                     
                 </Stack>
                 <Box  bg="white"px={7} py={10}>
-                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="14rem"spacing={3}>
+                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="8rem"spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.900" />
                             JavaScript
@@ -134,8 +131,9 @@ export default function Resume() {
            variant="solid"
            mb="1"
            mt="9"
+     
            pt="-1"
-           width="40%"
+           width="55%"
            className="resumebtn"
            bg={'primary.100'}
            color="white"
