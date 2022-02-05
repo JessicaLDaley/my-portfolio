@@ -183,7 +183,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   font-family:Courier New, monospace;
   font-size: 30px;
   border: 2px outset rgb(85, 84, 84);
-  margin-left:130px;
+  margin-left:180px;
  color:white;
  
 }
@@ -241,7 +241,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   font-family:Courier New, monospace;
   font-weight: bold;
   padding-left:5rem;
-    
+  margin-left:8rem;
 }
 .card-w {
   width:40rem;
@@ -259,7 +259,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
  
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .card-w {
-  width:25rem;
+  width:24rem;
     overflow-x:hidden;  
     margin-left:38rem;
     margin-right:-1rem;
@@ -276,7 +276,8 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 
 width:20rem;
 padding-left:0px;
-padding-right:15rem;
+padding-right:0rem;
+margin-left:7rem;
      
     }
   } 
@@ -338,9 +339,9 @@ margin-left:1rem;
         
     }
   }
-  @media screen and (min-width : 200px) and (max-width : 1000px) {
+  @media screen and (min-width : 431px) and (max-width : 1009px) {
     .resumebtn {
-     margin-left:85px !important;
+     margin-left:180px !important;
      
    
    
@@ -348,7 +349,17 @@ margin-left:1rem;
         
     }
   }
+  @media screen and (min-width : 200px) and (max-width : 430px) {
+    .resumebtn {
+     margin-left:50px !important;
   
+     
+   
+   
+        
+        
+    }
+  }
   @media screen and (min-width : 200px) and (max-width : 500px) {
   .row2{
     grid-template-columns: repeat(1, 1fr);

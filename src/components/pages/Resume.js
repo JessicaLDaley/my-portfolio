@@ -53,7 +53,7 @@ export default function Resume() {
                     
                 </Stack>
                 <Box  bg="white"px={7} py={10}>
-                    <List className="resume-list"fontSize="lg" textAlign={'left'} ml="8rem"spacing={3}>
+                    <List className="resume-list"fontSize="lg" textAlign={'left'} spacing={3}>
                         <ListItem>
                             <ListIcon as={CheckIcon} color="primary.900" />
                             JavaScript
@@ -130,9 +130,8 @@ export default function Resume() {
            variant="solid"
            mb="1"
            mt="9"
-     
            pt="-1"
-           width="55%"
+          
            className="resumebtn"
            bg={'primary.100'}
            color="white"
