@@ -27,7 +27,7 @@ export default function blogPostWithImage() {
     <Grid className="row2" templateRows='repeat(1, 1fr)' >
     <Stack>
       <GridItem >
-        <Center justify={["left",  "flex-end", "flex-end"]}py={9}>
+        <Center justify={["left",  "flex-end", "flex-end"]}py={1}>
           <Flex  className="work">
             <Box
               maxW={'350px'}
@@ -92,7 +92,7 @@ export default function blogPostWithImage() {
    
 <Stack className="responsive">
       <GridItem className="marg-top">
-        <Center justify={["center", "flex-end", "flex-end"]}py={3}>
+        <Center justify={["center", "flex-end", "flex-end"]}py={9}>
           <Flex className="work" >
             <Box
               maxW={'350px'}
@@ -221,7 +221,7 @@ export default function blogPostWithImage() {
 {/* work #4 */}
     <Stack className="responsive">
       <GridItem className="marg-top">
-        <Center justify={["center",  "flex-end", "flex-end"]}py={4}>
+        <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
               maxW={'350px'}
