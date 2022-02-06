@@ -259,10 +259,10 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
  
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .card-w {
-  width:24rem;
+  width:21rem;
     overflow-x:hidden;  
     margin-left:38rem;
-    margin-right:-1rem;
+    margin-right:-2rem;
    
       
    
@@ -277,7 +277,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
 width:20rem;
 padding-left:0px;
 padding-right:0rem;
-margin-left:7rem;
+margin-left:5rem;
      
     }
   } 
@@ -285,7 +285,7 @@ margin-left:7rem;
 
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .gradient {
-margin-left:1rem;
+margin-left:0rem;
    }
   } 
   @media screen and (min-width : 300px) and (max-width : 3000px) {
@@ -351,7 +351,7 @@ margin-left:1rem;
   }
   @media screen and (min-width : 200px) and (max-width : 430px) {
     .resumebtn {
-     margin-left:50px !important;
+     margin-left:28px !important;
   
      
    
