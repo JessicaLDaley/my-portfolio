@@ -249,7 +249,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   overflow-x: hidden;
 }
 .row2{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
 
 }
@@ -360,10 +360,10 @@ margin-left:0rem;
         
     }
   }
-  @media screen and (min-width : 200px) and (max-width : 500px) {
+  @media screen and (min-width : 200px) and (max-width : 900px) {
   .row2{
     grid-template-columns: repeat(1, 1fr);
-margin:1;
+margin:0;
   }
 }
 /* 
