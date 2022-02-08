@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles.css";
 import pep from "../images/pep.jpg"
+import quiz from "../images/quiz.jpg"
 import moviefoodie from "../images/moviefoodie.jpg"
 import tracker from "../images/tracker.png"
 import weather from "../images/weather.jpg"
@@ -27,17 +28,15 @@ export default function blogPostWithImage() {
     
     <Grid className="row2" templateRows='repeat(1, 1fr)' >
     <Stack>
-      <GridItem ml="4rem"mr="4rem">
+      <GridItem className="card-marg1">
         <Center justify={["left",  "flex-end", "flex-end"]}py={1}>
           <Flex  className="work">
             <Box
-              maxW={'400px'}
+              maxW={'500px'}
               maxH={'800px'}
               justifyContent="fill"
               w={'full'}
-              ml={"1"}
-              mr={"1"}
-              
+            
               boxShadow="dark-lg"
               rounded={'md'}
               mt="1"
@@ -48,7 +47,7 @@ export default function blogPostWithImage() {
                 maxH={'300px'}
                 mt={-6}
                 mx={-6}
-                mb={2}
+                mb={3}
                 pos={'relative'}>
                 <a href="https://traveltribe.herokuapp.com/">
                   <Image
@@ -59,13 +58,11 @@ export default function blogPostWithImage() {
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
-                  fontSize={'2xl'}
-                  fontFamily={'Courier New, monospace;'}
-                  mt="2">
+                <h4
+                  className="title"
+                  fontFamily={'Courier New, monospace;'}>
                   Travel Tribe
-                </Heading>
+                </h4>
                 <Text color={'black'}  fontFamily={'Courier New, monospace;'}>
                   MongoDB, Express, Node.js, React, Chakra
                 </Text>
@@ -92,11 +89,11 @@ export default function blogPostWithImage() {
    
    
 <Stack className="responsive">
-      <GridItem ml="4rem"mr="4rem"className="marg-top">
+      <GridItem className="card-marg2">
         <Center justify={["center", "flex-end", "flex-end"]}py={9}>
           <Flex className="work" >
             <Box
-              maxW={'400px'}
+              maxW={'390px'}
               maxH={'800px'} ml={4}
               w={'full'}
               bg='white, black'
@@ -106,14 +103,14 @@ export default function blogPostWithImage() {
               ml={1}
               mr={1}
               mt="-8"
-              mb='-6'
+             
               overflow={'hidden'}>
               <Box
                 maxH={'300px'}
                 bg={'primary.200'}
                 mt={-6}
                 mx={-6}
-                mb={5}
+                mb={2}
                 pos={'relative'}>
                 <a href="https://michellewehr.github.io/MovieFoodie/">
                   <Image
@@ -125,14 +122,13 @@ export default function blogPostWithImage() {
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
+                <h4
+                  className="title"
+                  p="{-2}"
                   color='primary.100, white'
-                  fontSize={'2xl'}
-                  fontFamily={'Courier New, monospace'}
-                  mb='-2'>
+                  fontFamily={'Courier New, monospace'}>
                   Movie Foodie
-                </Heading>
+                </h4>
                 <Text fontFamily={'Courier New, monospace;'} color="primary.900"color={'black'}>
                   HTML, CSS, JavaScript, Bulma, TMDB API
                 </Text>
@@ -156,7 +152,7 @@ export default function blogPostWithImage() {
    
     {/* work #3 */}
     <Stack className="responsive">
-      <GridItem ml="4rem"mr="4rem">
+      <GridItem className="card-marg3">
         <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
@@ -169,7 +165,7 @@ export default function blogPostWithImage() {
               p={5}
               ml={"1"}
               mr={'1'}
-              mt="-8"
+              mt="-7"
               mb="-9"
               overflow={'hidden'}>
               <Box
@@ -179,7 +175,7 @@ export default function blogPostWithImage() {
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={1}
+                mb={4}
                 pos={'relative'}>
                 <a href={"https://glacial-plains-14244.herokuapp.com/"}>
                   <Image
@@ -190,14 +186,13 @@ export default function blogPostWithImage() {
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
+                <h4
+                  className="title"
                   color='primary.100, white'
-                  fontSize={'2xl'}
                   fontFamily={'Courier New, monospace'}
                   mt='4'>
                   PepWeb
-                </Heading>
+                </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
                   MySQL, Express, Node.JS, Multer-s3, Handlebars
                 </Text>
@@ -221,7 +216,7 @@ export default function blogPostWithImage() {
     
 {/* work #4 */}
     <Stack className="responsive">
-      <GridItem ml="4rem"mr="4rem"className="marg-top">
+      <GridItem className="card-marg1">
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
@@ -235,6 +230,7 @@ export default function blogPostWithImage() {
               ml={"1"}
               mr={'1'}
               mt="-8"
+              mb="-6"
              overflow={'hidden'}>
               <Box
                 className='margin'
@@ -243,7 +239,7 @@ export default function blogPostWithImage() {
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={10}
+                mb={2}
                 pos={'relative'}>
                 <a href={"https://github.com/JessicaLDaley/SQL-Employee-Tracker"}>
                   <Image
@@ -254,14 +250,13 @@ export default function blogPostWithImage() {
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
+                <h4
+                  className="title"
                   color='primary.100, white'
-                  fontSize={'2xl'}
                   fontFamily={'Courier New, monospace'}
                   mt="-4">
                   Employee Tracker 
-                </Heading>
+                </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
                   MySQL, Express, Node.JS
                 </Text>
@@ -286,11 +281,11 @@ export default function blogPostWithImage() {
 
     {/* work #5 */}
     <Stack className="responsive">
-      <GridItem ml="4rem"mr="4rem">
+      <GridItem className="card-marg2">
         <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
-              maxW={'380px'}
+              maxW={'400px'}
               maxH={'800px'}
               w={'full'}
               bg='#ecf5f1, black'
@@ -299,8 +294,7 @@ export default function blogPostWithImage() {
               p={5}
               ml={"1"}
               mr={'1'}
-              mt="-8"
-              mb="-9"
+              mt="-10"
               overflow={'hidden'}>
               <Box
                 className='margin'
@@ -309,7 +303,7 @@ export default function blogPostWithImage() {
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={1}
+                mb={8}
                 pos={'relative'}>
                 <a href={"https://jessicaldaley.github.io/weather-dashboard/"}>
                   <Image
@@ -320,14 +314,13 @@ export default function blogPostWithImage() {
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
+                <h4
+                  className="title"
                   color='primary.100, white'
-                  fontSize={'2xl'}
                   fontFamily={'Courier New, monospace'}
                   mt='4'>
                   Weather Dashboard
-                </Heading>
+                </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
                HTML, CSS, JavaScript, Open Weather API
                 </Text>
@@ -351,12 +344,12 @@ export default function blogPostWithImage() {
     
 {/* work #6 */}
     <Stack className="responsive">
-      <GridItem ml="4rem"mr="4rem"className="marg-top">
+      <GridItem className="card-marg3">
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
-              maxW={'400px'}
-              maxH={'800px'}
+              maxW={'380px'}
+              maxH={'870px'}
               w={'full'}
               bg='white, primary.200'
               boxShadow="dark-lg"
@@ -364,36 +357,35 @@ export default function blogPostWithImage() {
               p={4}
               ml={"1"}
               mr={'1'}
-              mt="-8"
-             overflow={'hidden'}>
+              mt="-16"
+              overflow={'hidden'}>
               <Box
                 className='margin'
                 maxH={'300px'}
                 bg={'primary.200'}
                 mr={'1rem'}
-                mt={-12}
+                mt={-10}
                 mx={-5}
-                mb={10}
+                mb={2}
                 pos={'relative'}>
-                <a href={"https://github.com/JessicaLDaley/SQL-Employee-Tracker"}>
+                <a href={"https://jessicaldaley.github.io/javascript-quiz/"}>
                   <Image
                     src={
-                      tracker
+                      quiz
                     }
                     layout={'fill'}
                   /></a>
               </Box>
               <Stack>
-                <Heading
-                  className="works"
+                <h4
+                  className="title"
                   color='primary.100, white'
-                  fontSize={'2xl'}
                   fontFamily={'Courier New, monospace'}
-                  mt="-4">
-                  Employee Tracker 
-                </Heading>
-                <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
-                  MySQL, Express, Node.JS
+                  mt="-5">
+                  JavaScript Quiz
+                </h4>
+                <Text fontFamily={'Courier New, monospace;'}  color={'black'} pb="2" >
+                  HTML, CSS, JavaScript
                 </Text>
               </Stack>
               <Stack mt={1} direction={'row'} spacing={4} align={'center'}>
@@ -402,9 +394,9 @@ export default function blogPostWithImage() {
                   alt={'Author'}
                 />
                 <Stack direction={'column'} spacing={0} fontSize={'md'}>
-                  <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
-                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
-                    <ExternalLinkIcon font-size="20px"mx='2px' color="primary.900" /></Link>
+                  <Text fontFamily={'Courier New, monospace;'} mb="2" fontWeight={600}>Jessica Daley</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/javascript-quiz"><Text color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon mb="3" font-size="20px"mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
             </Box>
