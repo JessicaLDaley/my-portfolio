@@ -298,6 +298,9 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
  width:100%;
  margin-left:1rem;
  margin-right:1rem;
+ margin-top:-2rem;
+margin-bottom:-1rem;
+
     }
   } 
   @media only screen and (min-width : 300px) and (max-width : 430px) {
@@ -305,6 +308,8 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   
       margin-left:1rem;
       margin-right:1rem;
+      margin-top:-1rem;
+      margin-bottom: 1rem;
       width:100%;
         
     }
@@ -316,7 +321,9 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
         
  width:100%;
  margin-left:1rem; 
- margin-right:1rem;    
+ margin-right:1rem;  
+ margin-top:-1rem;
+ margin-bottom: 1rem;
     }
   } 
   
@@ -327,6 +334,7 @@ width:20rem;
 padding-left:0px;
 padding-right:0rem;
 margin-left:5rem;
+
      
     }
   } 
@@ -423,7 +431,8 @@ margin-left:0rem;
   @media only screen and (min-width : 200px) and (max-width : 385px) {
     .work{
      width:300px;
-     margin-right:10rem;
+     margin-right:2rem;
+     margin-top:1rem;
     
      
         

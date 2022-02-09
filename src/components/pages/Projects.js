@@ -233,8 +233,8 @@ export default function blogPostWithImage() {
               p={4}
               ml={"1"}
               mr={'1'}
-              mt="-8"
-              mb="-6"
+              mt="-10"
+              mb="-5"
              overflow={'hidden'}>
               <Box
                 className='margin'
@@ -271,9 +271,9 @@ export default function blogPostWithImage() {
                   alt={'Author'}
                 />
                 <Stack direction={'column'} spacing={0} fontSize={'md'}>
-                  <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
+                  <Text fontFamily={'Courier New, monospace;'} mt="2" fontWeight={600}>Jessica Daley</Text>
                   <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
-                    <ExternalLinkIcon font-size="20px"mx='2px' color="primary.900" /></Link>
+                    <ExternalLinkIcon mb="3" font-size="20px"mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
             </Box>
