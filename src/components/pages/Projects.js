@@ -32,8 +32,9 @@ export default function blogPostWithImage() {
         <Center justify={["left",  "flex-end", "flex-end"]}py={1}>
           <Flex  className="work">
             <Box
-              maxW={'500px'}
-              maxH={'800px'}
+              className="card-size"
+              // maxW={'500px'}
+              // maxH={'800px'}
               justifyContent="fill"
               w={'full'}
             
@@ -93,8 +94,10 @@ export default function blogPostWithImage() {
         <Center justify={["center", "flex-end", "flex-end"]}py={9}>
           <Flex className="work" >
             <Box
-              maxW={'390px'}
-              maxH={'800px'} ml={4}
+            className="card-size"
+              // maxW={'390px'}
+              // maxH={'800px'} 
+              ml={4}
               w={'full'}
               bg='white, black'
               boxShadow="dark-lg"
@@ -156,8 +159,9 @@ export default function blogPostWithImage() {
         <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
-              maxW={'380px'}
-              maxH={'800px'}
+            className="card-size"
+              // maxW={'380px'}
+              // maxH={'800px'}
               w={'full'}
               bg='#ecf5f1, black'
               boxShadow="dark-lg"
@@ -166,16 +170,15 @@ export default function blogPostWithImage() {
               ml={"1"}
               mr={'1'}
               mt="-7"
-              mb="-9"
               overflow={'hidden'}>
               <Box
                 className='margin'
-                maxH={'300px'}
+                maxH={'330px'}
                 bg={'primary.200'}
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={4}
+                mb={2}
                 pos={'relative'}>
                 <a href={"https://glacial-plains-14244.herokuapp.com/"}>
                   <Image
@@ -190,7 +193,7 @@ export default function blogPostWithImage() {
                   className="title"
                   color='primary.100, white'
                   fontFamily={'Courier New, monospace'}
-                  mt='4'>
+                >
                   PepWeb
                 </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
@@ -220,8 +223,9 @@ export default function blogPostWithImage() {
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
-              maxW={'400px'}
-              maxH={'800px'}
+            className="card-size"
+              // maxW={'400px'}
+              // maxH={'800px'}
               w={'full'}
               bg='white, primary.200'
               boxShadow="dark-lg"
@@ -254,7 +258,7 @@ export default function blogPostWithImage() {
                   className="title"
                   color='primary.100, white'
                   fontFamily={'Courier New, monospace'}
-                  mt="-4">
+                >
                   Employee Tracker 
                 </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
@@ -285,8 +289,9 @@ export default function blogPostWithImage() {
         <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
-              maxW={'400px'}
-              maxH={'800px'}
+            className="card-size"
+              // maxW={'400px'}
+              // maxH={'800px'}
               w={'full'}
               bg='#ecf5f1, black'
               boxShadow="dark-lg"
@@ -298,12 +303,12 @@ export default function blogPostWithImage() {
               overflow={'hidden'}>
               <Box
                 className='margin'
-                maxH={'300px'}
+                maxH={'320px'}
                 bg={'primary.200'}
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={8}
+                mb={2}
                 pos={'relative'}>
                 <a href={"https://jessicaldaley.github.io/weather-dashboard/"}>
                   <Image
@@ -318,7 +323,7 @@ export default function blogPostWithImage() {
                   className="title"
                   color='primary.100, white'
                   fontFamily={'Courier New, monospace'}
-                  mt='4'>
+                  >
                   Weather Dashboard
                 </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
@@ -348,8 +353,9 @@ export default function blogPostWithImage() {
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
-              maxW={'380px'}
-              maxH={'870px'}
+            className="card-size"
+              // maxW={'380px'}
+              // maxH={'870px'}
               w={'full'}
               bg='white, primary.200'
               boxShadow="dark-lg"
@@ -361,7 +367,7 @@ export default function blogPostWithImage() {
               overflow={'hidden'}>
               <Box
                 className='margin'
-                maxH={'300px'}
+                maxH={'320px'}
                 bg={'primary.200'}
                 mr={'1rem'}
                 mt={-10}
@@ -381,7 +387,7 @@ export default function blogPostWithImage() {
                   className="title"
                   color='primary.100, white'
                   fontFamily={'Courier New, monospace'}
-                  mt="-5">
+                  mt='-5'>
                   JavaScript Quiz
                 </h4>
                 <Text fontFamily={'Courier New, monospace;'}  color={'black'} pb="2" >
