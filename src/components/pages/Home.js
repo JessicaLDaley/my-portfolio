@@ -14,7 +14,7 @@ function About() {
                     </p>
                     <p className='bioStyle'>
                     Creating beautiful and engaging digital experiences.
-                    Focused on simlicity and purpose.  
+                    Focused on simplicity and purpose.  
                    
 				</p>
         </div>

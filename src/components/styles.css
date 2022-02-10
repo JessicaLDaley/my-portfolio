@@ -513,7 +513,6 @@ margin-left:0rem;
   @media screen and (min-width : 287px) and (max-width: 320px)  {
     .hello {
       
-      
      font-size:30px;
      padding-bottom:5px;
      margin-left:2rem;
@@ -525,7 +524,7 @@ margin-left:0rem;
     .hello {
      font-size:30px;
      padding-bottom:5px;
-     margin-left:50px;
+     margin-left:58px;
      font-weight: 500;
     
      }
@@ -533,9 +532,7 @@ margin-left:0rem;
 
   @media screen and (min-width : 406px) and (max-width: 487px)  {
     .hello {
-      
-       width:100%;
-       font-size:30px;
+      font-size:30px;
        padding-bottom:5px;
        margin-left:5rem;
        font-weight: 500;
@@ -543,9 +540,7 @@ margin-left:0rem;
   }
   @media screen and (min-width : 488px) and (max-width: 520px)  {
     .hello {
-      
-       width:100%;
-       font-size:30px;
+      font-size:30px;
        padding-bottom:5px;
        margin-left:6rem;
        font-weight: 500;
@@ -554,10 +549,8 @@ margin-left:0rem;
   @media screen and (min-width : 521px) and (max-width: 574px)  {
     .hello {
       
-      width:100%;
-      font-size:30px;
+     font-size:30px;
       padding-bottom:5px;
-      
       font-weight: 500;
       margin-left:9rem;
     
@@ -566,10 +559,8 @@ margin-left:0rem;
   @media screen and (min-width : 575px) and (max-width: 620px)  {
     .hello {
       
-      width:100%;
       font-size:30px;
       padding-bottom:5px;
-      
       font-weight: 500;
       margin-left:10rem;
     
@@ -578,7 +569,6 @@ margin-left:0rem;
   @media screen and (min-width : 621px) and (max-width: 696px)  {
     .hello {
       
-      width:100%;
       font-size:30px;
       padding-bottom:5px;
       font-weight: 500;
@@ -589,7 +579,6 @@ margin-left:0rem;
   @media screen and (min-width : 697px) and (max-width: 772px)  {
     .hello {
       
-      width:100%;
       font-size:40px;
       padding-bottom:5px;
       font-weight: 500;
@@ -599,12 +588,10 @@ margin-left:0rem;
   }
   @media screen and (min-width : 773px) and (max-width: 810px)  {
     .hello {
-      
-      width:100%;
       font-size:40px;
       padding-bottom:5px;
       font-weight: 500;
-      margin-left:14rem;
+      margin-left:13rem;
     
      }
   }
@@ -650,7 +637,6 @@ margin-left:0rem;
 @media screen and (min-width : 200px) and (max-width : 350px) {
   .what-i-do {
      
-     width:100%;
      text-align: center;
      margin-left:20px;
      margin-right:15px;
@@ -661,9 +647,9 @@ margin-left:0rem;
 @media screen and (min-width : 351px) and (max-width : 500px) {
   .what-i-do {
      
-     width:100%;
+   
      text-align: left;
-     margin-left:25px;
+     margin-left:50px;
      margin-right:8px;
      text-align: center;
   }
@@ -683,6 +669,13 @@ margin-left:0rem;
       margin-bottom:15px;
       font-weight: 700;
       text-align: center;
+      
+    }
+  }
+  @media screen and (min-width : 500px) and (max-width : 810px)   {
+    .hero {
+       
+    width:100%;
       
     }
   }
