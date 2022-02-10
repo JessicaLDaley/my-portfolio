@@ -263,7 +263,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   
 
   }
-  .card-marg3{
+.card-marg3{
     margin-left:10px;
     margin-right:5px;
   }
@@ -279,7 +279,7 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   /* resume */
 
  
-  @media only screen and (min-width : 300px) and (max-width : 430px) {
+  @media only screen and (min-width : 300px) and (max-width : 420px) {
     .card-w {
   width:21rem;
   overflow-x:hidden;  
@@ -287,41 +287,8 @@ text-shadow: 3px 1px 8px rgb(123, 187, 123);
   margin-right:-2rem;
    
       
-   
-        
-        
     }
   } 
-  @media only screen and (min-width : 300px) and (max-width : 430px) {
-    .card-marg3{
- margin-left:1rem;
- margin-right:1rem;
- margin-top:-2rem;
- margin-bottom:-1rem;
-
-    }
-  } 
-  @media only screen and (min-width : 300px) and (max-width : 430px) {
-    .card-marg2{
-  
-      margin-left:1rem;
-      margin-right:1rem;
-      margin-top:-1rem;
-      margin-bottom: 1rem;
-    
-        
-    }
-  } 
-  
-  @media only screen and (min-width : 300px) and (max-width : 430px) {
-    .card-marg1{
-    margin-left:1rem; 
-    margin-right:1rem;  
-    margin-top:-1rem;
-    margin-bottom: 1rem;
-    }
-  } 
-  
   @media only screen and (min-width : 300px) and (max-width : 430px) {
     .resume-list {
     width:20rem;
@@ -339,6 +306,109 @@ margin-left:0rem;
 
     }
   } 
+  /* resume end */
+  @media only screen and (min-width : 300px) and (max-width : 411px) {
+    .card-marg3{
+ margin-left:2.2rem;
+ margin-right:1rem;
+ margin-top:-2rem;
+ margin-bottom:-1rem;
+ width:300px;
+
+    }
+  } 
+  @media only screen and (min-width : 300px) and (max-width : 411px) {
+    .card-marg2{
+  
+      margin-left:2.2rem;
+      margin-right:1rem;
+      margin-top:-1rem;
+      margin-bottom: 1rem;
+      width:300px;
+        
+    }
+  } 
+  
+  @media only screen and (min-width : 300px) and (max-width : 411px) {
+    .card-marg1{
+    margin-left:2.2rem; 
+    margin-right:1rem;  
+    margin-top:-1rem;
+    margin-bottom: 1rem;
+    width:300px;
+    }
+  } 
+  @media only screen and (min-width : 412px) and (max-width : 430px) {
+    .card-marg3{
+ margin-left:2rem;
+ margin-right:1rem;
+ margin-top:-2rem;
+ margin-bottom:-1rem;
+ width:350px;
+
+    }
+  } 
+  @media only screen and (min-width : 412px) and (max-width : 430px) {
+    .card-marg2{
+  
+      margin-left:2rem;
+      margin-right:1rem;
+      margin-top:-1rem;
+      margin-bottom: 2rem;
+      width:350px;
+        
+    }
+  } 
+  
+  @media only screen and (min-width : 412px) and (max-width : 430px) {
+    .card-marg1{
+    margin-left:2rem; 
+    margin-right:1rem;  
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    width:350px;
+    }
+  } 
+
+  @media only screen and (min-width : 300px) and (max-width : 384px) {
+    .card3{
+    
+    margin-bottom: 1rem;
+    }
+  }
+  @media only screen and (min-width : 300px) and (max-width : 384px) {
+    .card6{
+    margin-bottom: 1rem;
+    
+    
+    }
+  } 
+  @media only screen and (min-width : 300px) and (max-width : 384px) {
+    .card2{
+    margin-top: 0.5rem;
+    margin-bottom:1px;
+    }
+  } 
+  @media only screen and (min-width : 385px) and (max-width : 1274px) {
+    .card3{
+   margin-top:-1;
+    margin-bottom: -1rem;
+    }
+  }
+ 
+  @media only screen and (min-width : 385px) and (max-width : 1274px) {
+    .card2{
+    margin-bottom: -1rem;
+    margin-top:1rem;
+    }
+  } 
+  @media only screen and (min-width : 385px) and (max-width : 1274px) {
+    .card6{
+    margin-bottom: 5px;
+    
+    }
+  }
+
   @media screen and (min-width : 300px) and (max-width : 3000px) {
     .row1 {
         float:left;

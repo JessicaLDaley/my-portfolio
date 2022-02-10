@@ -91,7 +91,7 @@ export default function blogPostWithImage() {
    
 <Stack className="responsive">
       <GridItem className="card-marg2">
-        <Center justify={["center", "flex-end", "flex-end"]}py={9}>
+        <Center className="card2" justify={["center", "flex-end", "flex-end"]}py={9}>
           <Flex className="work" >
             <Box
             className="card-size"
@@ -156,7 +156,7 @@ export default function blogPostWithImage() {
     {/* work #3 */}
     <Stack className="responsive">
       <GridItem className="card-marg3">
-        <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
+        <Center className="card3" justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
             className="card-size"
@@ -286,7 +286,7 @@ export default function blogPostWithImage() {
     {/* work #5 */}
     <Stack className="responsive">
       <GridItem className="card-marg2">
-        <Center justify={["right",  "flex-end", "flex-end"]}py={8}>
+        <Center className="card6" justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
             <Box
             className="card-size"
