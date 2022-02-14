@@ -72,9 +72,9 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
                   <Text  fontFamily={'Courier New, monospace;'}fontWeight={600}>Jessica Daley</Text>
-                  <Link href="https://github.com/JessicaLDaley/TravelTribe"><Text  fontFamily={'Courier New, monospace;'} color="primary.900">View on GitHub</Text>
+                  <Link href="https://github.com/JessicaLDaley/TravelTribe"><Text  fontFamily={'Courier New, monospace;'} fontSize="20px" fontWeight={600} color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon font-size="20px" color="primary.900" mx='2px'/></Link>
                 </Stack>
               </Stack>
@@ -140,9 +140,9 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
                   <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
-                  <Link href="https://github.com/JessicaLDaley/MovieFoodie"><Text fontFamily={'Courier New, monospace;'} color="primary.900">View on GitHub</Text>
+                  <Link href="https://github.com/JessicaLDaley/MovieFoodie"><Text fontFamily={'Courier New, monospace;'} fontSize="20px" fontWeight={600}  color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon font-size="20px"color="primary.900" mx='2px' /></Link>
                 </Stack>
               </Stack>
@@ -204,9 +204,9 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
                   <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
-                  <Link color="primary.900" href="https://github.com/JessicaLDaley/PepWeb"><Text fontFamily={'Courier New, monospace;'}color="primary.900">View on GitHub</Text>
+                  <Link color="primary.900" href="https://github.com/JessicaLDaley/PepWeb"><Text fontFamily={'Courier New, monospace;'} fontSize="20px" fontWeight={600}  color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon font-size="20px" mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
@@ -268,9 +268,9 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
                   <Text fontFamily={'Courier New, monospace;'} fontWeight={600}>Jessica Daley</Text>
-                  <Link color="primary.900" href="https://jessicaldaley.github.io/weather-dashboard/"><Text fontFamily={'Courier New, monospace;'}color="primary.900">View on GitHub</Text>
+                  <Link color="primary.900" href="https://jessicaldaley.github.io/weather-dashboard/"><Text fontFamily={'Courier New, monospace;'} fontSize="20px" fontWeight={600} color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon font-size="20px" mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
@@ -285,7 +285,7 @@ export default function blogPostWithImage() {
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
             <Box
-            className="card-size"
+          
               // maxW={'380px'}
               // maxH={'870px'}
               w={'full'}
@@ -293,13 +293,13 @@ export default function blogPostWithImage() {
               boxShadow="dark-lg"
               rounded={'md'}
               p={4}
-              ml={"1"}
-              mr={'1'}
+              ml={"4px"}
+              mr="-1rem"
               mt="-16"
               overflow={'hidden'}>
               <Box
                 className='margin'
-                maxH={'320px'}
+                maxH={'330px'}
                 bg={'primary.200'}
                 mr={'1rem'}
                 mt={-10}
@@ -331,10 +331,10 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
-                  <Text fontFamily={'Courier New, monospace;'} mb="-1" fontWeight={600}>Jessica Daley</Text>
-                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/budget-tracker-PWA"><Text color="primary.900">View on GitHub</Text>
-                    <ExternalLinkIcon mb="-2" font-size="20px"mx='2px' color="primary.900" /></Link>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
+                  <Text fontFamily={'Courier New, monospace;'} mb="1" fontWeight={600}>Jessica Daley</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/budget-tracker-PWA"><Text className="git-weight" mb="-2" fontSize="20px" fontWeight={600} color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon  mb="-2" font-size="20px"mx='1px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
             </Box>
@@ -395,9 +395,9 @@ export default function blogPostWithImage() {
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                <Stack direction={'column'} spacing={0} fontSize={'lg'}>
                   <Text fontFamily={'Courier New, monospace;'} mt="2" fontWeight={600}>Jessica Daley</Text>
-                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text fontSize="20px" fontWeight={600}  color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon mb="3" font-size="20px"mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
