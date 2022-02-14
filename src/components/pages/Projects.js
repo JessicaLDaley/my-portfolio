@@ -232,16 +232,16 @@ export default function blogPostWithImage() {
               p={5}
               ml={"1"}
               mr={'1'}
-              mt="-10"
+              mt="-8"
               overflow={'hidden'}>
               <Box
                 className='margin'
-                maxH={'320px'}
+                maxH={'312px'}
                 bg={'primary.200'}
                 mr={'1rem'}
                 mt={-12}
                 mx={-5}
-                mb={2}
+                mb={3}
                 pos={'relative'}>
                 <a href={"https://jessicaldaley.github.io/weather-dashboard/"}>
                   <Image
@@ -263,7 +263,7 @@ export default function blogPostWithImage() {
                HTML, CSS, JavaScript, Open Weather API
                 </Text>
               </Stack>
-              <Stack mt={1} direction={'row'} spacing={4} align={'center'}>
+              <Stack mt={-2} direction={'row'} spacing={4} align={'center'}>
                 <Avatar
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
