@@ -1,15 +1,14 @@
 import React from "react";
 import "../styles.css";
 import pep from "../images/pep.jpg"
-import quiz from "../images/quiz.jpg"
+import budget from "../images/budget.jpg"
 import moviefoodie from "../images/moviefoodie.jpg"
-import tracker from "../images/tracker.png"
+import quiz from "../images/quiz.jpg"
 import weather from "../images/weather.jpg"
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import {
   Box,
   Center,
-  Heading,
   Text,
   Stack,
   Avatar,
@@ -218,73 +217,7 @@ export default function blogPostWithImage() {
     </Stack>
     
 {/* work #4 */}
-    <Stack className="responsive">
-      <GridItem className="card-marg1">
-        <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
-          <Flex className="work">
-            <Box
-            className="card-size"
-              // maxW={'400px'}
-              // maxH={'800px'}
-              w={'full'}
-              bg='white, primary.200'
-              boxShadow="dark-lg"
-              rounded={'md'}
-              p={4}
-              ml={"1"}
-              mr={'1'}
-              mt="-10"
-              mb="-5"
-             overflow={'hidden'}>
-              <Box
-                className='margin'
-                maxH={'300px'}
-                bg={'primary.200'}
-                mr={'1rem'}
-                mt={-12}
-                mx={-5}
-                mb={2}
-                pos={'relative'}>
-                <a href={"https://github.com/JessicaLDaley/SQL-Employee-Tracker"}>
-                  <Image
-                    src={
-                      tracker
-                    }
-                    layout={'fill'}
-                  /></a>
-              </Box>
-              <Stack>
-                <h4
-                  className="title"
-                  color='primary.100, white'
-                  fontFamily={'Courier New, monospace'}
-                >
-                  Employee Tracker 
-                </h4>
-                <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
-                  MySQL, Express, Node.JS
-                </Text>
-              </Stack>
-              <Stack mt={1} direction={'row'} spacing={4} align={'center'}>
-                <Avatar
-                  src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
-                  alt={'Author'}
-                />
-                <Stack direction={'column'} spacing={0} fontSize={'md'}>
-                  <Text fontFamily={'Courier New, monospace;'} mt="2" fontWeight={600}>Jessica Daley</Text>
-                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
-                    <ExternalLinkIcon mb="3" font-size="20px"mx='2px' color="primary.900" /></Link>
-                </Stack>
-              </Stack>
-            </Box>
-          </Flex>
-        </Center>
-      </GridItem>
-    </Stack>
-
-
-    {/* work #5 */}
-    <Stack className="responsive">
+<Stack className="responsive">
       <GridItem className="card-marg2">
         <Center className="card6" justify={["right",  "flex-end", "flex-end"]}py={8}>
           <Flex className="work">
@@ -346,9 +279,8 @@ export default function blogPostWithImage() {
         </Center>
       </GridItem>
     </Stack>
-    
-{/* work #6 */}
-    <Stack className="responsive">
+      {/* work #5 */}
+      <Stack className="responsive">
       <GridItem className="card-marg3">
         <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
           <Flex className="work">
@@ -374,7 +306,71 @@ export default function blogPostWithImage() {
                 mx={-5}
                 mb={2}
                 pos={'relative'}>
-                <a href={"https://jessicaldaley.github.io/javascript-quiz/"}>
+                <a href={"https://budge-travel-tracker.herokuapp.com/"}>
+                  <Image
+                    src={
+                      budget
+                    }
+                    layout={'fill'}
+                  /></a>
+              </Box>
+              <Stack>
+                <h4
+                  className="title"
+                  color='primary.100, white'
+                  fontFamily={'Courier New, monospace'}
+                >
+                  Budget Tracker
+                </h4>
+                <Text fontFamily={'Courier New, monospace;'}  color={'black'} pb="2" >
+                  Node.js, Express.js, JavaScript, HTML, CSS
+                </Text>
+              </Stack>
+              <Stack mt={-1} direction={'row'} spacing={4} align={'center'}>
+                <Avatar
+                  src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
+                  alt={'Author'}
+                />
+                <Stack direction={'column'} spacing={0} fontSize={'md'}>
+                  <Text fontFamily={'Courier New, monospace;'} mb="-1" fontWeight={600}>Jessica Daley</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/budget-tracker-PWA"><Text color="primary.900">View on GitHub</Text>
+                    <ExternalLinkIcon mb="-2" font-size="20px"mx='2px' color="primary.900" /></Link>
+                </Stack>
+              </Stack>
+            </Box>
+          </Flex>
+        </Center>
+      </GridItem>
+    </Stack>
+    {/* work #6 */}
+    <Stack className="responsive">
+      <GridItem className="card-marg1">
+        <Center justify={["center",  "flex-end", "flex-end"]}py={12}>
+          <Flex className="work">
+            <Box
+            className="card-size"
+              // maxW={'400px'}
+              // maxH={'800px'}
+              w={'full'}
+              bg='white, primary.200'
+              boxShadow="dark-lg"
+              rounded={'md'}
+              p={4}
+              ml={"1"}
+              mr={'1'}
+              mt="-16"
+              mb="-5"
+             overflow={'hidden'}>
+              <Box
+                className='margin'
+                maxH={'300px'}
+                bg={'primary.200'}
+                mr={'1rem'}
+                mt={-5}
+                mx={-5}
+                mb={3}
+                pos={'relative'}>
+                <a href={"https://github.com/JessicaLDaley/SQL-Employee-Tracker"}>
                   <Image
                     src={
                       quiz
@@ -387,21 +383,21 @@ export default function blogPostWithImage() {
                   className="title"
                   color='primary.100, white'
                   fontFamily={'Courier New, monospace'}
-                  mt='-5'>
+                >
                   JavaScript Quiz
                 </h4>
-                <Text fontFamily={'Courier New, monospace;'}  color={'black'} pb="2" >
-                  HTML, CSS, JavaScript
+                <Text fontFamily={'Courier New, monospace;'}  color={'black'}>
+                  MySQL, Express, Node.JS
                 </Text>
               </Stack>
-              <Stack mt={1} direction={'row'} spacing={4} align={'center'}>
+              <Stack mt={2} direction={'row'} spacing={4} align={'center'}>
                 <Avatar
                   src={'https://avatars.githubusercontent.com/u/79805880?v=4'}
                   alt={'Author'}
                 />
                 <Stack direction={'column'} spacing={0} fontSize={'md'}>
-                  <Text fontFamily={'Courier New, monospace;'} mb="2" fontWeight={600}>Jessica Daley</Text>
-                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/javascript-quiz"><Text color="primary.900">View on GitHub</Text>
+                  <Text fontFamily={'Courier New, monospace;'} mt="2" fontWeight={600}>Jessica Daley</Text>
+                  <Link fontFamily={'Courier New, monospace;'}  color="primary.900" href="https://github.com/JessicaLDaley/SQL-Employee-Tracker"><Text color="primary.900">View on GitHub</Text>
                     <ExternalLinkIcon mb="3" font-size="20px"mx='2px' color="primary.900" /></Link>
                 </Stack>
               </Stack>
@@ -410,6 +406,12 @@ export default function blogPostWithImage() {
         </Center>
       </GridItem>
     </Stack>
+
+
+  
+   
+
+   
 
   </Grid>
  
