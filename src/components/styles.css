@@ -313,11 +313,11 @@ margin-left:0rem;
   } 
   @media only screen and (min-width : 341px) and (max-width : 411px) {
     .card-marg3{
- margin-left:1rem;
+ margin-left:2.2rem;
  margin-right:1rem;
  margin-top:-2rem;
  margin-bottom:1rem;
- width:335px;
+ width:300px;
 
     }
   } 
