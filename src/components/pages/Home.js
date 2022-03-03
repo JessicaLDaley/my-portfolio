@@ -5,7 +5,7 @@ import profile_pic from "../images/Me.jpg"
 function About() {
     return (
         
-        <div className="jumbotron jumbotron-fluid">   
+        <div  className="jumbotron jumbotron-fluid">   
         <div className="moreLeft"><img className="profile" src={profile_pic} alt="profile" />
         <div className="headerText">
         <h1 className='hello'>JESSICA DALEY</h1>
